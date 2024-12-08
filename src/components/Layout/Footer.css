@@ -1,0 +1,88 @@
+.footer-mainWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #060f31, #041c5a);
+}
+
+.footer-container {
+  width: 100%;
+  min-height: 40vh;
+
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 2rem;
+  justify-content: space-evenly;
+}
+.footer-mainDetails {
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-mainDetails p {
+  text-transform: capitalize;
+  width: 17rem;
+}
+.footerImg {
+  width: 10rem;
+}
+.NavigationFooter {
+  text-align: center;
+}
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  gap: 0.5rem;
+}
+.navLinks a {
+  color: var(--CeladonSorbet);
+  text-decoration: none;
+}
+
+.footer-mainWrapper hr {
+  width: 87%;
+  background-color: #ffffff;
+  height: 1px;
+  border: none;
+  outline: none;
+}
+.copyright {
+  text-align: center;
+  padding: 0.5rem 0;
+  color: white;
+  /* text-transform: lowercase; */
+}
+.mailid {
+  text-transform: lowercase;
+}
+.iconGroup {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.iconGroup a {
+  color: var(--CeladonSorbet);
+}
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    padding: 3rem 0;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .navLinks {
+    text-align: center;
+  }
+  .copyright {
+    width: 95%;
+  }
+}

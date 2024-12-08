@@ -1,0 +1,146 @@
+.contactContainer {
+  width: 100%;
+  /* min-height: 100vh; */
+  color: var(--white);
+  /* background-color: red; */
+  background: linear-gradient(to bottom, var(--blue), var(--darkblue));
+}
+.contactDetails {
+  width: 100%;
+  min-height: 50vh;
+}
+.contactDetails h2,
+.contactLinks h2 {
+  text-transform: capitalize;
+  color: var(--white);
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+}
+.contactCard {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  border-bottom: 1px solid var(--white);
+  border-top: 1px solid var(--white);
+  padding: 1rem;
+}
+.contactIcon {
+  font-size: 2.5rem;
+  color: var(--white);
+}
+.cardhead {
+  text-transform: uppercase;
+}
+.carddetails {
+  font-size: 0.9rem;
+}
+.cardList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.subHead {
+  text-align: center;
+  text-transform: uppercase;
+}
+.technitrust {
+  /* font-size: 2.7rem; */
+  color: black;
+  animation: changecolor 5s infinite;
+  text-transform: uppercase;
+}
+@keyframes changecolor {
+  0% {
+    color: var(--white);
+  }
+  50% {
+    color: var(--darkblue);
+  }
+  100% {
+    color: var(--white);
+  }
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem 0;
+}
+.contactForm input,
+.contactForm textarea {
+  height: 2.5rem;
+  font-family: inherit;
+  font-size: 1rem;
+  width: 45%;
+  outline: none;
+  background-color: var(--white);
+  border: none;
+  color: var(--blue);
+}
+.contactForm textarea {
+  height: 10rem;
+}
+.contactForm button {
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+.contactLinks {
+  padding: 3rem 0;
+}
+.iconLists {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+.contactIconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: var(--white);
+  font-size: 1.5rem;
+  color: var(--blue);
+}
+.mapwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+.Contactmap {
+  width: 70%;
+  height: 20rem;
+  border: none;
+}
+@media (max-width: 768px) {
+  .Contactmap {
+    width: 97%;
+  }
+  .cardList {
+    flex-direction: column;
+  }
+  .subHead {
+    padding: 3rem 0;
+  }
+  .contactForm {
+    padding: 1rem 0;
+  }
+  .contactForm input,
+  .contactForm textarea {
+    width: 80%;
+  }
+}

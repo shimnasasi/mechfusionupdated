@@ -1,0 +1,70 @@
+.HomeContactContainer {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(to bottom, black, var(--gray)); */
+}
+.HomeContactPara {
+  color: white;
+  font-size: 1.3rem;
+}
+.HomecontactHead {
+  font-size: 2rem;
+  color: var(--white);
+}
+.contactWrapper {
+  width: 70%;
+  padding: 3rem 0;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, var(--blue), var(--gray));
+  border: 1px solid var(--white);
+}
+.HomeContactBtn {
+  padding: 0.5rem 2rem;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: inherit;
+  border: 1px solid var(--gray);
+
+  background: linear-gradient(to right, var(--blue), var(--gray));
+  color: var(--white);
+  cursor: pointer;
+}
+.HomeContactBtn:hover {
+  border: 1px solid var(--white);
+  transition-duration: 1s;
+}
+.listdesk {
+  display: flex;
+  text-transform: capitalize;
+  gap: 2rem;
+  font-weight: 300;
+  align-items: center;
+}
+
+.navBtn {
+  padding: 0.5rem 2rem;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  /* font-size: 1rem; */
+}
+@media (max-width: 768px) {
+  .contactWrapper {
+    width: 97%;
+  }
+  .listdesk {
+    display: none;
+  }
+}

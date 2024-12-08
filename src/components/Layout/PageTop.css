@@ -1,0 +1,25 @@
+.PageTop-container {
+  width: 100%;
+  height: 60vh;
+  /* background-color: red; */
+  background: url("../../Assets/06.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  color: var(--white);
+}
+.pageTopShadow {
+  width: 100%;
+  height: 60h;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  /* background-color: #041c5a88; */
+  background: linear-gradient(to bottom, #041c5a88, #595858a7);
+}
+
+.pageTopShadow h1 {
+  font-size: 2.7rem;
+  font-weight: 700;
+}
