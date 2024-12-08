@@ -18,8 +18,11 @@
   /* border: 1px solid; */
 }
 .ServiceCard {
-  width: 70%;
+  width: 50%;
+  cursor: pointer;
   display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
   /* width: 20rem; */
   border: 1px solid var(--white);
   /* box-shadow: 1px 1px 30px 2px var(--blue); */
@@ -56,11 +59,20 @@
 }
 .serviceWrapper p {
   text-align: center;
+  width: 85%;
 }
 .mainhead {
   font-size: 3rem;
   font-weight: 600;
   color: var(--blue);
+}
+.servicePageLink {
+  font-weight: 600;
+  color: var(--white);
+  text-align: center;
+}
+.servicewrapperLink {
+  width: 100%;
 }
 @media (max-width: 768px) {
   .serviceCardDeatils .para {
@@ -82,5 +94,8 @@
   }
   .mainhead {
     font-size: 2.3rem;
+  }
+  .serviceWrapper p {
+    width: 97%;
   }
 }

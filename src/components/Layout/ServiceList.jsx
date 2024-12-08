@@ -1,6 +1,7 @@
 import React from "react";
 import "./ServiceList.css";
 import { servicelist } from "../../utils/servicesList";
+import { Link } from "react-router-dom";
 
 const ServiceList = () => {
   return (
@@ -10,12 +11,12 @@ const ServiceList = () => {
         <p>
           With years of expertise in the industry, we pride ourselves on
           delivering innovative solutions that streamline your production
-          processes and bring your ideas to life with precision and
-          efficiency. Our dedicated team of skilled professionals utilizes
-          cutting-edge technology and software to deliver high-quality designs,
-          prototyping, and manufacturing services that exceed expectations. We
-          are committed to provide personalized attention and customized
-          solutions to help you achieve your goals.
+          processes and bring your ideas to life with precision and efficiency.
+          Our dedicated team of skilled professionals utilizes cutting-edge
+          technology and software to deliver high-quality designs, prototyping,
+          and manufacturing services that exceed expectations. We are committed
+          to provide personalized attention and customized solutions to help you
+          achieve your goals.
         </p>
         {servicelist.map((service) => (
           <div className="ServiceCard">
@@ -26,6 +27,12 @@ const ServiceList = () => {
                 {service.services.map((list) => (
                   <li key={list.serviceID}>{list.subService}</li>
                 ))}
+                <Link
+                  className="servicePageLink"
+                  to={`/services/${service.id}`}
+                >
+                  <span>Explore More</span>
+                </Link>
               </span>
             </div>
           </div>

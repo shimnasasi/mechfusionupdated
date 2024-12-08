@@ -27,7 +27,7 @@ const AboutIntro = () => {
             Proactive Planning
           </span>
           <Link to={"/contact"}>
-            <button>Hover Me</button>
+            <button>Contact us</button>
           </Link>
         </div>
       </div>

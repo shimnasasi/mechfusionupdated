@@ -1,0 +1,53 @@
+.imgmfpage {
+  width: 30%;
+  height: 20rem;
+  border-radius: 10px;
+}
+.service-NameHead {
+  font-size: 3rem;
+  color: var(--blue);
+  font-weight: 500;
+}
+.serviceWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.serviceWrapper .subHead {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--blue);
+}
+.labelList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.serviceLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 16rem;
+  height: 3rem;
+  font-weight: 600;
+  padding: 0.5rem 0;
+  border: 1px solid var(--blue);
+  color: var(--white);
+  background: linear-gradient(to right, var(--blue), var(--darkblue));
+}
+@media (max-width: 768px) {
+  .imgmfpage {
+    width: 95%;
+    height: 15rem;
+    border-radius: 8px;
+  }
+  .service-NameHead {
+    font-size: 2rem;
+  }
+}
