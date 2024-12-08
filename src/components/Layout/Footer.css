@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, #060f31, #041c5a);
+  border-top: 2px solid var(--white);
 }
 
 .footer-container {

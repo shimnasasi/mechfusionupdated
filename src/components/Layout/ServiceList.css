@@ -3,35 +3,84 @@
   min-height: 100vh;
   background-color: #fff;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
+.serviceWrapper {
+  padding: 3rem 0;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  /* border: 1px solid; */
+}
 .ServiceCard {
-  width: 16rem;
-  /* border: 1px solid var(--gray); */
-  box-shadow: 1px 1px 30px 2px var(--blue);
-  padding: 5px;
+  width: 70%;
+  display: flex;
+  /* width: 20rem; */
+  border: 1px solid var(--white);
+  /* box-shadow: 1px 1px 30px 2px var(--blue); */
+  padding: 10px;
+  gap: 2rem;
+  /* height: 30rem; */
+  background: linear-gradient(to bottom, #060f31, #032069);
 }
 .ServiceCard img {
-  width: 100%;
+  width: 40%;
+  height: 14rem;
+  border: 1px solid var(--white);
 }
 .serviceCardDeatils {
   display: flex;
   flex-direction: column;
 }
 .serviceCardDeatils .head {
-  font-size: 1.7rem;
-  color: var(--blue);
+  font-size: 1.6rem;
+  color: var(--white);
+  font-weight: 500;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid; */
 }
 .serviceCardDeatils .para {
   display: flex;
   flex-direction: column;
   padding: 5px;
-  font-size: 1.02rem;
-  color: var(--gray);
+  font-size: 0.9rem;
+  color: wheat;
+  gap: 5px;
+}
+.serviceWrapper p {
+  text-align: center;
+}
+.mainhead {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--blue);
 }
 @media (max-width: 768px) {
+  .serviceCardDeatils .para {
+    width: 90%;
+  }
   .ServiceCard {
+    flex-direction: column;
+    width: 15rem;
     box-shadow: 1px 1px 10px 2px var(--blue);
+  }
+  .serviceWrapper {
+    width: 100%;
+    gap: 3rem;
+  }
+  .ServiceCard img {
+    width: 100%;
+    height: 14rem;
+    border: 1px solid var(--white);
+  }
+  .mainhead {
+    font-size: 2.3rem;
   }
 }

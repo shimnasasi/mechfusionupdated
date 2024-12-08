@@ -6,11 +6,14 @@ const HomeContact = () => {
   return (
     <div className="HomeContactContainer">
       <div className="contactWrapper">
-        <span className="HomecontactHead">Interested in working with us?</span>
-        <span className="HomeContactPara">Let`s Talk Now</span>
-
+        <div className="contactInfo">
+          <span className="HomecontactHead">
+            Interested in working with us?
+          </span>
+          <span className="HomeContactPara">Let`s Talk Now</span>
+        </div>
         <Link to={"/contact"}>
-          <button class="HomeContactBtn">Contact us</button>
+          <button>Contact us</button>
         </Link>
       </div>
     </div>

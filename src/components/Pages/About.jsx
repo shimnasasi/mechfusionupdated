@@ -4,6 +4,7 @@ import PageTop from "../Layout/PageTop";
 import AboutVisionMission from "../Layout/AboutVisionMission";
 import AboutIntro from "../Layout/AboutIntro";
 import AboutBanner from "../Layout/AboutBanner";
+import HomeContact from "../Layout/HomeContact";
 
 const About = () => {
   return (
@@ -12,6 +13,7 @@ const About = () => {
       <AboutBanner/>
       <AboutIntro/>
       {/* <AboutVisionMission/> */}
+      <HomeContact/>
     </Layout>
   );
 };
