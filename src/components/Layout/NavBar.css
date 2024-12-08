@@ -7,6 +7,7 @@
   justify-content: space-around;
   color: var(--white);
   position: absolute;
+  z-index: 100;
 }
 .NavBar-container .navIcon {
   font-size: 1.5rem;

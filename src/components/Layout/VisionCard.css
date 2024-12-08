@@ -1,0 +1,45 @@
+.VisionCardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.VCardWrapper {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 15px;
+}
+.VCardWrapper img {
+  width: 35%;
+  border-radius: 10px;
+}
+.vsionDetails {
+  width: 60%;
+  display: flex;
+
+  flex-direction: column;
+}
+.visionHead {
+  font-size: 2rem;
+  color: var(--blue);
+}
+@media (max-width: 768px) {
+  .VCardWrapper {
+    width: 90%;
+    gap: 1rem;
+    text-align: center;
+    flex-direction: column;
+  }
+  .VCardWrapper img {
+    width: 100%;
+  }
+  .vsionDetails {
+    width: 90%;
+  }
+}

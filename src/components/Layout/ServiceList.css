@@ -1,0 +1,37 @@
+.ServiceList-Container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ServiceCard {
+  width: 16rem;
+  /* border: 1px solid var(--gray); */
+  box-shadow: 1px 1px 30px 2px var(--blue);
+  padding: 5px;
+}
+.ServiceCard img {
+  width: 100%;
+}
+.serviceCardDeatils {
+  display: flex;
+  flex-direction: column;
+}
+.serviceCardDeatils .head {
+  font-size: 1.7rem;
+  color: var(--blue);
+}
+.serviceCardDeatils .para {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  font-size: 1.02rem;
+  color: var(--gray);
+}
+@media (max-width: 768px) {
+  .ServiceCard {
+    box-shadow: 1px 1px 10px 2px var(--blue);
+  }
+}

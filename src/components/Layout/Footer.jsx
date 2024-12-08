@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-// import logo from "../../assets/logo/logo.png";
 import { Link } from "react-router-dom";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -58,11 +57,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* <hr />
-
-      <p className="copyright">
-        Copyright @ Dimark.ae |Dimark Marketing Management LLC
-      </p> */}
     </div>
   );
 };
