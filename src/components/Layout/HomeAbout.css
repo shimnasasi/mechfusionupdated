@@ -1,0 +1,10 @@
+.homeaboutimg {
+  width: 30%;
+  border-radius: 15px;
+}
+@media (max-width: 768px) {
+  .homeaboutimg {
+    width: 90%;
+    border-radius: 8px;
+  }
+}

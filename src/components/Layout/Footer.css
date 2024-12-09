@@ -33,7 +33,7 @@
   width: 10rem;
 }
 .NavigationFooter {
-  text-align: center;
+  text-align: left;
 }
 .navLinks {
   display: flex;
@@ -85,5 +85,8 @@
   }
   .copyright {
     width: 95%;
+  }
+  .NavigationFooter {
+    text-align: center;
   }
 }

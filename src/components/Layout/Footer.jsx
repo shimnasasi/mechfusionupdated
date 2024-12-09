@@ -25,26 +25,12 @@ const Footer = () => {
           </div>
         </div>
         <div className="NavigationFooter">
-          <h2>Information</h2>
+          <h2>Navigation Links</h2>
           <div className="navLinks">
-            <span>
-              Yelahanka Newtown <br /> Bangalore <br /> Karnataka India – 560064
-            </span>
-            <br />
-            <div className="iconGroup">
-              <a title="instagram" href="https://instagram.com/">
-                <FaInstagram />
-              </a>
-              <a title="facebook" href="https://instagram.com/">
-                <FaFacebookSquare />
-              </a>
-              <a title="LinkedIn" href="https://instagram.com/">
-                <FaLinkedin />
-              </a>
-              <a title="twitter" href="https://instagram.com/">
-                <FaXTwitter />
-              </a>
-            </div>
+            <Link to={"/services/1"}>Mechanical Design</Link>
+            <Link to={"/services/2"}>CNC Programming</Link>
+            <Link to={"/services/3"}>Engineering Documentation</Link>
+            <Link to={"/services/4"}>Other Services</Link>
           </div>
         </div>
         <div className="NavigationFooter">
