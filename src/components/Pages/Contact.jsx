@@ -9,7 +9,6 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
-import { FaTiktok } from "react-icons/fa";
 
 const Contact = () => {
   const sendEmail = (e) => {
@@ -145,7 +144,11 @@ const Contact = () => {
         <div className="contactLinks">
           <h2>Connect with us !</h2>
           <div className="iconLists">
-            <a target="_blank" href="https://www.instagram.com/mechfusion_/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/mechfusion_/"
+            >
               <div className="contactIconWrapper">
                 <FaInstagram />
               </div>
@@ -155,6 +158,7 @@ const Contact = () => {
             </div>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.facebook.com/MechfusionEngineeringSolutions"
             >
               <div className="contactIconWrapper">
@@ -163,6 +167,7 @@ const Contact = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/company/mechfusion/"
             >
               <div className="contactIconWrapper">

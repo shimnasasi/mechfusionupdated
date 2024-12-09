@@ -40,25 +40,31 @@ const Footer = () => {
         <div className="NavigationFooter">
           <h2>Contact</h2>
           <div className="navLinks">
-            <span>+91-9562465095</span>
-            <a className="mailid" href="mailto:info@dimark.ae">
+            <span>+91-9904130316</span>
+            <a className="mailid" rel="noreferrer" href="mailto:info@dimark.ae">
               enquiry.mechfusion@gmail.com
             </a>
             <div className="footSocioLinks">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.linkedin.com/company/mechfusion/"
               >
                 <FaLinkedin />
               </a>
               <FaXTwitter />
               <a
+                rel="noreferrer"
                 target="_blank"
                 href="https://www.facebook.com/MechfusionEngineeringSolutions"
               >
                 <FaFacebookSquare />
               </a>
-              <a target="_blank" href="https://www.instagram.com/mechfusion_/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/mechfusion_/"
+              >
                 <FaInstagram />
               </a>
             </div>

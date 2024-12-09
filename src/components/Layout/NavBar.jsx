@@ -6,7 +6,6 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaBars } from "react-icons/fa6";
-import { RiPhoneFill } from "react-icons/ri";
 import SideIcons from "./SideIcons";
 
 const NavBar = () => {
