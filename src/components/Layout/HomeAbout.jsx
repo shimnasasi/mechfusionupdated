@@ -13,7 +13,7 @@ const HomeAbout = () => {
         <div className="wrapDetails">
           <span className="OtherHeads">What we Aimed about?</span>
           <span className="abIntroPara">
-            Mechfusion is your trusted partner for engineering services,
+          <span className="mechfusion">Mechfusion</span> is your trusted partner for engineering services,
             expertly crafted to address your design and manufacturing
             requirements. With extensive industry experience, we specialize in
             providing innovative solutions that optimize production processes

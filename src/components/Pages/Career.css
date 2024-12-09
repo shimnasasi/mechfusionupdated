@@ -1,0 +1,43 @@
+.CareerContainer {
+  width: 100%;
+  /* min-height: 80vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  padding: 7rem 0;
+  gap: 1rem;
+}
+.careerHead {
+  color: var(--blue);
+  font-size: 3rem;
+  font-weight: 500;
+}
+.Careerintro {
+  width: 75%;
+}
+.careerIntroWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.applyLine {
+  font-style: italic;
+  color: var(--blue);
+  width: 60%;
+}
+@media (max-width: 768px) {
+  .careerHead {
+    font-size: 2.3rem;
+  }
+  .Careerintro {
+    width: 95%;
+  }
+  .applyLine {
+    width: 90%;
+  }
+}

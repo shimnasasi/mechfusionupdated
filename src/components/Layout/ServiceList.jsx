@@ -19,6 +19,7 @@ const ServiceList = () => {
           achieve your goals.
         </p>
         {servicelist.map((service) => (
+          <Link to={`/services/${service.id}`} className="cardLink">
           <div className="ServiceCard">
             <img src={service.image} alt="" key={service.id} />
             <div className="serviceCardDeatils">
@@ -27,15 +28,16 @@ const ServiceList = () => {
                 {service.services.map((list) => (
                   <li key={list.serviceID}>{list.subService}</li>
                 ))}
-                <Link
+                {/* <Link
                   className="servicePageLink"
                   to={`/services/${service.id}`}
                 >
                   <span>Explore More</span>
-                </Link>
+                </Link> */}
               </span>
             </div>
           </div>
+          </Link>
         ))}
       </div>
     </div>

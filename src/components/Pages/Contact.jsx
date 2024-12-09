@@ -95,24 +95,45 @@ const Contact = () => {
             <div className="contactCard">
               <IoLocationOutline className="contactIcon" />
               <span className="cardhead">Address</span>
-              <span className="carddetails">Phone:+971-87654321</span>
-              <span className="carddetails">Phone:+971-87654321</span>
+              <span className="carddetails">Bangalore</span>
+              <span className="carddetails">Karnataka India</span>
             </div>
             <div className="contactCard">
               <MdMailOutline className="contactIcon" />
               <span className="cardhead">Mail</span>
-              <span className="carddetails">Phone:+971-87654321</span>
-              <span className="carddetails">Phone:+971-87654321</span>
+              <span className="carddetails">Mail to us</span>
+              <span className="carddetails">enquiry.mechfusion@gmail.com</span>
             </div>
           </div>
         </div>
-        <h3 className="subHead"></h3>
-        <form action="">
+        <div className="subHeadwraper">
+          <div className="subHead">
+            Get in touch with Mechfusion for expert engineering solutions
+            tailored to your needs. Contact us today to bring your ideas to life
+            with precision and innovation!
+          </div>
+        </div>
+        <form onSubmit={sendEmail}>
           <div className="contactForm">
-            <input type="text" name="name" placeholder="Your Name" />
-            <input type="text" name="number" placeholder="Your Number" />
-            <input type="text" name="subject" placeholder="Subject" />
-            <input type="email" name="email" placeholder="Your Email" />
+            <input
+              type="text"
+              name="user_name"
+              required
+              placeholder="Your Name"
+            />
+            <input
+              type="text"
+              name="user_number"
+              required
+              placeholder="Your Number"
+            />
+
+            <input
+              type="email"
+              name="user_email"
+              required
+              placeholder="Your Email"
+            />
             <textarea
               name="message"
               id=""

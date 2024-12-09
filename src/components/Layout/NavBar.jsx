@@ -7,6 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaBars } from "react-icons/fa6";
 import { RiPhoneFill } from "react-icons/ri";
+import SideIcons from "./SideIcons";
 
 const NavBar = () => {
   const [view, setView] = useState(false);
@@ -66,6 +67,7 @@ const NavBar = () => {
         <Link to={"/contact"}>contact us</Link>
         <button className ="navBtn"><RiPhoneFill/> +91-9562465095</button>
       </div>
+      <SideIcons />
     </div>
   );
 };

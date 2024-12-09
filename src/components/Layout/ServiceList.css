@@ -17,6 +17,12 @@
   gap: 2rem;
   /* border: 1px solid; */
 }
+.cardLink {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .ServiceCard {
   width: 50%;
   cursor: pointer;
@@ -70,11 +76,15 @@
   font-weight: 600;
   color: var(--white);
   text-align: center;
+  display: none;
 }
 .servicewrapperLink {
   width: 100%;
 }
 @media (max-width: 768px) {
+  .servicePageLink {
+    display: flex;
+  }
   .serviceCardDeatils .para {
     width: 90%;
   }

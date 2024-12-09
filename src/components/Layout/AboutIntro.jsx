@@ -13,7 +13,7 @@ const AboutIntro = () => {
         <div className="wrapDetails">
           <span className="OtherHeads">Our Vision</span>
           <span className="abIntroPara">
-            Mechfusion is committed to providing quality professional
+          <span className="mechfusion">Mechfusion</span> is committed to providing quality professional
             engineering services to enhance the communities where our clients
             live and work. Our approach combines exceptional design, innovative
             solutions, and proven performance.
