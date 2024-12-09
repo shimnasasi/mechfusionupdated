@@ -145,21 +145,30 @@ const Contact = () => {
         <div className="contactLinks">
           <h2>Connect with us !</h2>
           <div className="iconLists">
-            <div className="contactIconWrapper">
-              <FaInstagram />
-            </div>
+            <a target="_blank" href="https://www.instagram.com/mechfusion_/">
+              <div className="contactIconWrapper">
+                <FaInstagram />
+              </div>
+            </a>
             <div className="contactIconWrapper">
               <FaXTwitter />
             </div>
-            <div className="contactIconWrapper">
-              <FaFacebookSquare />
-            </div>
-            <div className="contactIconWrapper">
-              <FaLinkedin />
-            </div>
-            <div className="contactIconWrapper">
-              <FaTiktok />
-            </div>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/MechfusionEngineeringSolutions"
+            >
+              <div className="contactIconWrapper">
+                <FaFacebookSquare />
+              </div>
+            </a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/mechfusion/"
+            >
+              <div className="contactIconWrapper">
+                <FaLinkedin />
+              </div>
+            </a>
           </div>
         </div>
         <div className="mapwrapper">

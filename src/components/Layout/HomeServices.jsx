@@ -22,7 +22,7 @@ const HomeServices = () => {
         ))}
       </div>
       <Link to={"/services "}>
-        <button>Explore More</button>
+        <button>Services</button>
       </Link>
     </div>
   );

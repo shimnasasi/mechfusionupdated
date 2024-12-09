@@ -12,7 +12,6 @@ const About = () => {
       <PageTop PageName="About us"/>
       <AboutBanner/>
       <AboutIntro/>
-      {/* <AboutVisionMission/> */}
       <HomeContact/>
     </Layout>
   );

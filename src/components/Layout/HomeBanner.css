@@ -1,4 +1,45 @@
 .HomeBanner-container {
   width: 100%;
   min-height: 100vh;
+  background: url("../../Assets/23.webp");
+  background-position: center;
+  background-size: cover;
+}
+.HomeBannerShadow {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #000000c7, #041c5a88);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.BannerSmallHead {
+  color: var(--white);
+  text-transform: uppercase;
+  /* font-weight: 500; */
+  font-size: 1.5em;
+  /* padding: 0.5rem 2rem; */
+  border-radius: 2.5rem;
+  /* background: linear-gradient(to right, rgba(0, 0, 0, 0.533), #041c5aa9); */
+}
+.bannerMainHead {
+  font-size: 4rem;
+  font-weight: 500;
+  color: var(--white);
+}
+.bannerMainPara {
+  color: var(--white);
+  width: 50%;
+  font-size: 1.1rem;
+}
+@media (max-width: 768px) {
+  .bannerMainHead {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  .bannerMainPara {
+    width: 95%;
+  }
 }

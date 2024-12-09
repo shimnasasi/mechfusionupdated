@@ -26,8 +26,8 @@ const AboutIntro = () => {
             Methodologies,Empowering Effective Corporate Communication Endorsing
             Proactive Planning
           </span>
-          <Link to={"/contact"}>
-            <button>Contact us</button>
+          <Link to={"/services"}>
+            <button>Explore</button>
           </Link>
         </div>
       </div>

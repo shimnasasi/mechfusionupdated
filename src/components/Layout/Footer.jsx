@@ -10,9 +10,13 @@ const Footer = () => {
   return (
     <div className="footer-mainWrapper">
       <div className="footer-container">
-        <div className="footer-mainDetails">
-          <h1>MechFusion</h1>
-          <p>Engineering Solutions</p>
+        <div className="NavigationFooter">
+          <div className="mffootwrapper">
+            <span className="FooterMainHead">
+              Mech<span className="fusion">Fusion</span>
+            </span>
+            <span>Engineering Solutions</span>
+          </div>
         </div>
 
         <div className="NavigationFooter">
@@ -38,8 +42,26 @@ const Footer = () => {
           <div className="navLinks">
             <span>+91-9562465095</span>
             <a className="mailid" href="mailto:info@dimark.ae">
-            enquiry.mechfusion@gmail.com
+              enquiry.mechfusion@gmail.com
             </a>
+            <div className="footSocioLinks">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/mechfusion/"
+              >
+                <FaLinkedin />
+              </a>
+              <FaXTwitter />
+              <a
+                target="_blank"
+                href="https://www.facebook.com/MechfusionEngineeringSolutions"
+              >
+                <FaFacebookSquare />
+              </a>
+              <a target="_blank" href="https://www.instagram.com/mechfusion_/">
+                <FaInstagram />
+              </a>
+            </div>
           </div>
         </div>
       </div>

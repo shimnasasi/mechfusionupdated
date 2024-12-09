@@ -26,7 +26,7 @@ const HomeAbout = () => {
           </span>
 
           <Link to={"/about"}>
-            <button>Explore More</button>
+            <button>About us</button>
           </Link>
         </div>
       </div>

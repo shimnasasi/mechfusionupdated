@@ -13,7 +13,7 @@ const HomeContact = () => {
           <span className="HomeContactPara">Let`s Talk Now</span>
         </div>
         <Link to={"/contact"}>
-          <button>Contact us</button>
+          <button>Contact </button>
         </Link>
       </div>
     </div>

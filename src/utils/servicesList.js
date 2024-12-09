@@ -1,7 +1,8 @@
-import image1 from "../Assets/02.jpg";
-import other from '../Assets/34.webp' 
-import engineering from '../Assets/27.webp'
-import cnc from '../Assets/3.jpg'
+import image1 from "../Assets/21.webp";
+import cnc from "../Assets/3.jpg";
+import Engineering from "../Assets/27.webp";
+import others from "../Assets/34.webp";
+
 
 export const servicelist = [
   {
@@ -69,7 +70,7 @@ export const servicelist = [
   {
     id: 3,
     serviceName: "Engineering Documentation",
-    image: engineering,
+    image: Engineering,
     services: [
       {
         subService: "Work Instruction (WI)",
@@ -100,7 +101,7 @@ export const servicelist = [
   {
     id: 4,
     serviceName: "Other Services",
-    image: other,
+    image: others,
     services: [
       {
         subService: "Mould Flow Analysis",

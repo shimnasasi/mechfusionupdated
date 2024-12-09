@@ -14,7 +14,9 @@ const NavBar = () => {
   return (
     <div className="NavBar-container">
       <Link to={"/"}>
-        <h1>MF</h1>
+        <span className="navHead">
+          Mech<span className="mfusion">Fusion</span>
+        </span>
       </Link>
       <FaBars
         className="navIcon"
@@ -65,7 +67,9 @@ const NavBar = () => {
         <Link to={"/services"}>services</Link>
         <Link to={"/career"}>career</Link>
         <Link to={"/contact"}>contact us</Link>
-        <button className ="navBtn"><RiPhoneFill/> +91-9562465095</button>
+        {/* <button className="navBtn">
+          <RiPhoneFill /> call
+        </button> */}
       </div>
       <SideIcons />
     </div>

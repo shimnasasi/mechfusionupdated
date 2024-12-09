@@ -1,7 +1,7 @@
-import mechanical from '../Assets/02.jpg'
-import cnc from '../Assets/02.jpg'
-import documentation from '../Assets/02.jpg'
-import other from '../Assets/02.jpg'
+import mechanical from '../Assets/2.jpg'
+import cnc from '../Assets/7.jpg'
+import documentation from '../Assets/4.jpg'
+import other from '../Assets/13.webp'
 
 
 export const serviceData = [
