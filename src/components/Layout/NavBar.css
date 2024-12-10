@@ -13,11 +13,11 @@
   font-size: 1.5rem;
   display: none;
 }
-.navHead{
+.navHead {
   font-size: 2rem;
   font-weight: 700;
 }
-.mfusion{
+.FooterMainHead .fusion {
   font-weight: 800;
   color: var(--gray);
 }
@@ -84,5 +84,4 @@
   .NavBar-container .navIcon {
     display: flex;
   }
- 
 }

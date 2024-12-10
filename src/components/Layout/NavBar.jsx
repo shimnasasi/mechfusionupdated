@@ -14,7 +14,12 @@ const NavBar = () => {
     <div className="NavBar-container">
       <Link to={"/"}>
         <span className="navHead">
-          Mech<span className="mfusion">Fusion</span>
+          <div className="mffootwrapper">
+            <span className="FooterMainHead">
+              Mech<span className="fusion">Fusion</span>
+            </span>
+            {/* <span>Engineering Solutions</span> */}
+          </div>
         </span>
       </Link>
       <FaBars
@@ -41,19 +46,38 @@ const NavBar = () => {
             <li>Contact us</li>
           </Link>
           <div className="listaddons">
-            <h1>MF</h1>
+            <span className="navHead">
+              Mech<span className="mfusion">Fusion</span>
+            </span>
+            <br />
 
             <div className="navbar-socio-Links">
-              <a href="https://www.facebook.com/share/158CHpRx3o/">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://www.facebook.com/MechfusionEngineeringSolutions"
+              >
                 <FaFacebookSquare className="icon" />
               </a>
-              <a href="https://www.instagram.com/dimark_marketing_management/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/mechfusion_/"
+              >
                 <FaInstagram className="icon" />
               </a>
-              <a href="https://x.com/DimarkMM">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/mechfusion_/"
+              >
                 <FaXTwitter className="icon" />
               </a>
-              <a href="https://www.linkedin.com/company/dimark-marketing-management-llc/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/company/mechfusion/"
+              >
                 <FaLinkedin className="icon" />
               </a>
             </div>
