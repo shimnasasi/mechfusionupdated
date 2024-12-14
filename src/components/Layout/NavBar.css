@@ -1,13 +1,40 @@
 .NavBar-container {
   width: 100%;
-  height: 9vh;
-  /* background: linear-gradient(to bottom, #060f31, #041c5a); */
+  height: 10vh;
+  background: linear-gradient(to bottom, #060f31, #041c5a);
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap: 35rem;
+  /* justify-content:space-between ; */
   color: var(--white);
   position: absolute;
   z-index: 100;
+  /* border: 1px solid ; */
+  
+}
+.engineeringSolution1 {
+  color: var(--gray);
+  padding-left: 8.5rem;
+  /* margin-bottom: 1rem; */
+  font-size: 0.62rem;
+}
+.solution 
+{
+  padding-left: .5rem;
+}
+.mech1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  /* padding-left: 2rem; */
+  /* border:1px solid red ; */
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+.fusion1 {
+  color: var(--gray);
 }
 .NavBar-container .navIcon {
   font-size: 1.5rem;
@@ -75,13 +102,52 @@
   border-radius: 5px;
   border: 1px solid var(--gray);
 }
+.mfNavHeadWrapper
+{
+  /* border: 1px solid ; */
+  position: relative;
+  height:8vh ;
+  display: flex;
+  align-items: start;
+}
+.esWrapper
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: .6rem;
+  text-transform:uppercase;
+  color: var(--gray);
+}
 /* .navBtn{
   border: 1px solid red;
   height: 2rem;
   color: red;
 } */
 @media (max-width: 768px) {
+  .mfNavHeadWrapper
+  {
+    height:7.8vh ;
+  }
+  .esWrapper
+  {
+    font-size: .4rem;
+  }
   .NavBar-container .navIcon {
     display: flex;
   }
+  .mech1 {
+    font-size: 2rem;
+  }
+  .engineeringSolution1 {
+    color: var(--gray);
+    padding-left: 6.5rem;
+    /* padding-bottom: 2rem; */
+    font-size: 0.40rem;
+  }
+  .NavBar-container
+  {
+    gap: .5rem;
+  }
+
 }

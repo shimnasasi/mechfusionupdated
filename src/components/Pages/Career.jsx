@@ -11,7 +11,7 @@ const Career = () => {
       <div className="CareerContainer">
         <div className="careerIntroWrapper">
           {" "}
-          <span className="careerHead">MECHFUSION</span>
+          <span className="careerHead">Mechfusion</span>
           <br />
           <span className="Careerintro">
             At <span className="mechfusion">Mechfusion</span>, we believe in
@@ -28,7 +28,7 @@ const Career = () => {
         </div>
         <span className="applyLine">
           "To apply, send your resume and a cover letter to
-          enquiry.mechfusion@gmail.com. Please mention the job title in the subject
+          enquiry@mechfusion.in. Please mention the job title in the subject
           line."
         </span>
       </div>

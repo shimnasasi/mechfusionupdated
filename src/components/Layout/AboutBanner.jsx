@@ -9,7 +9,7 @@ const AboutBanner = () => {
         <img src={about} alt="" className="aboutBannerImg" />
       </div>
       <div className="aboutBanner-wrapper">
-        <span className="smallHeading">MECHFUSION</span>
+        <span className="smallHeading">Mechfusion</span>
         <span className="aboutHead">
           Your premier provider of tailored engineering design and manufacturing
           services

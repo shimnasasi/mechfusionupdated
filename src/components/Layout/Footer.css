@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, #060f31, #041c5a);
-  border-top: 2px solid var(--white);
+  /* border-top: 2px solid var(--white); */
 }
 
 .footer-container {
@@ -93,6 +93,16 @@
 .fusion {
   color: var(--gray);
   font-weight: 600;
+}
+.engsolution
+{
+  font-size: .50rem;
+  padding-left: 4.8rem;
+  color: var(--gray);
+}
+.solutions 
+{
+  padding-left: 0.3rem;
 }
 @media (max-width: 768px) {
   .footSocioLinks {

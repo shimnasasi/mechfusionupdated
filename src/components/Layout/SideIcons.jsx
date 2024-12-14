@@ -45,7 +45,7 @@ const SideIcons = () => {
       </div>
       <div className="iconwrapper">
         <a 
-          href="mailto:enquiry.mechfusion@gmail.com"
+          href="mailto:enquiry@mechfusion.in"
           target="_blank"
           title="Email"
           rel="noreferrer"

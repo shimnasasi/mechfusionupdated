@@ -10,15 +10,14 @@ const Footer = () => {
   return (
     <div className="footer-mainWrapper">
       <div className="footer-container">
-        <div className="NavigationFooter">
-          <div className="mffootwrapper">
-            <span className="FooterMainHead">
-              Mech<span className="fusion">Fusion</span>
-            </span>
-            <span>Engineering Solutions</span>
-          </div>
-        </div>
-
+        <Link to={"/"}>
+               <div className="mfNavHeadWrapper">
+                 <div className="mech1">
+                   Mech<span className="fusion1">fusion</span>
+                 </div>
+                 <span className="esWrapper">e n g i n e e r i n g <span className="solution">s o l u t i o n s</span> </span>
+               </div>
+             </Link>
         <div className="NavigationFooter">
           <h2>Navigation Links</h2>
           <div className="navLinks">
@@ -29,7 +28,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="NavigationFooter">
-          <h2>Navigation Links</h2>
+          <h2>Services</h2>
           <div className="navLinks">
             <Link to={"/services/1"}>Mechanical Design</Link>
             <Link to={"/services/2"}>CNC Programming</Link>
@@ -42,7 +41,8 @@ const Footer = () => {
           <div className="navLinks">
             <span>+91 879 222 0030</span>
             <a className="mailid" rel="noreferrer" href="mailto:info@dimark.ae">
-              enquiry.mechfusion@gmail.com
+            enquiry@mechfusion.in
+
             </a>
             <div className="footSocioLinks">
               <a
@@ -52,7 +52,13 @@ const Footer = () => {
               >
                 <FaLinkedin />
               </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://x.com/Mechfusion30088"
+              >
               <FaXTwitter />
+              </a>
               <a
                 rel="noreferrer"
                 target="_blank"

@@ -18,7 +18,9 @@ const HomeServices = () => {
       </span>
       <div className="HomeserviceWrapper">
         {homeServiceList.map((HS) => (
-          <HSCard image={HS.image} name={HS.servicesName} key={HS.id} />
+          <Link to={`/services/${HS.id}`} key={HS.id}>
+            <HSCard image={HS.image} name={HS.servicesName}  />
+          </Link>
         ))}
       </div>
       <Link to={"/services "}>

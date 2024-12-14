@@ -29,9 +29,11 @@
   border-top: 1px solid var(--white);
   padding: 1rem;
   width: 13rem;
+  height: 10rem;
 }
 .contactIcon {
   font-size: 2.5rem;
+
   color: var(--white);
 }
 .cardhead {

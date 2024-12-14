@@ -16,7 +16,7 @@ const Contact = () => {
 
     const requestOptions = {
       method: "POST",
-      body: new FormData(e.target)
+      body: new FormData(e.target),
     };
     fetch("https://mechfusion.in/api/contact-us.php", requestOptions)
       .then((response) => console.log(response))
@@ -86,10 +86,18 @@ const Contact = () => {
           <h2>get in touch with us !</h2>
           <div className="cardList">
             <div className="contactCard">
-              <IoPhonePortraitOutline className="contactIcon" />
+              <a
+                href="https://wa.me/+918792220030/?text=let me know more about the services provided by *MechFusion*"
+                target="_blank"
+                rel="noreferrer"
+                title="Whatsapp"
+              >
+                <IoPhonePortraitOutline className="contactIcon" />
+              </a>
+
               <span className="cardhead">phone</span>
-              <span className="carddetails">Phone:+971-87654321</span>
-              <span className="carddetails">Phone:+971-87654321</span>
+              <span className="carddetails">Phone:+91 879 222 0030</span>
+              {/* <span className="carddetails">***********</span> */}
             </div>
             <div className="contactCard">
               <IoLocationOutline className="contactIcon" />
@@ -100,8 +108,8 @@ const Contact = () => {
             <div className="contactCard">
               <MdMailOutline className="contactIcon" />
               <span className="cardhead">Mail</span>
-              <span className="carddetails">Mail to us</span>
-              <span className="carddetails">enquiry.mechfusion@gmail.com</span>
+              {/* <span className="carddetails">Mail to us</span> */}
+              <span className="carddetails">enquiry@mechfusion.in</span>
             </div>
           </div>
         </div>
@@ -153,9 +161,15 @@ const Contact = () => {
                 <FaInstagram />
               </div>
             </a>
-            <div className="contactIconWrapper">
-              <FaXTwitter />
-            </div>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://x.com/Mechfusion30088"
+            >
+              <div className="contactIconWrapper">
+                <FaXTwitter />
+              </div>
+            </a>
             <a
               target="_blank"
               rel="noreferrer"
@@ -176,11 +190,20 @@ const Contact = () => {
             </a>
           </div>
         </div>
+
         <div className="mapwrapper">
-          <iframe
+          {/* <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15543.7381864467!2d77.56922900000002!3d13.103333!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19da06202f0f%3A0xf4ec8ed295f83a94!2sSuvilla%20residency!5e0!3m2!1sen!2sin!4v1733326986761!5m2!1sen!2sin"
             title="map"
             className="Contactmap"
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe> */}
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31087.827547256784!2d77.55617278585107!3d13.100552129077107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae18605dd9cf5d%3A0x1b1ce96486083bbb!2sYelahanka%20New%20Town%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1734083676675!5m2!1sen!2sin"
+            className="Contactmap"
+            title="map"
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

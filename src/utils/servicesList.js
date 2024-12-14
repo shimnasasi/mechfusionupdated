@@ -34,6 +34,49 @@ export const servicelist = [
         subService: "Sheet metal",
         serviceID: 6
       }
+      ,
+      {
+        subService: "2D to 3D Conversion",
+        serviceID: 3
+      },
+      {
+        subService: "Conceptual Design",
+        serviceID: 4
+      },
+      {
+        subService: "Legacy Data Migration",
+        serviceID: 5
+      },
+      {
+        subService: "3D to 2D Detailing or Manufacturing Drawing",
+        serviceID: 6
+      }
+      ,
+      {
+        subService: "Reverse Engineering",
+        serviceID: 5
+      },
+      {
+        subService: "Mechanism Designs",
+        serviceID: 6
+      }
+      ,
+      {
+        subService: "Prototype Design",
+        serviceID: 3
+      },
+      {
+        subService: "Machining Stage drawings",
+        serviceID: 4
+      },
+      {
+        subService: "VAVE Design",
+        serviceID: 5
+      },
+      {
+        subService: "R&D Design",
+        serviceID: 6
+      }
     ]
   },
   {
@@ -95,6 +138,22 @@ export const servicelist = [
       {
         subService: "Inspection Plan / Inspection Report",
         serviceID: 18
+      },
+      {
+        subService: "Document Digitalization",
+        serviceID: 15
+      },
+      {
+        subService: "Design For Manufacturing (DFM)",
+        serviceID: 16
+      },
+      {
+        subService: "PPT Presentations",
+        serviceID: 17
+      },
+      {
+        subService: "First Article Inspection Report (FAIR)",
+        serviceID: 18
       }
     ]
   },
@@ -118,10 +177,6 @@ export const servicelist = [
       {
         subService: "Prototype Manufacturing Support",
         serviceID: 22
-      },
-      {
-        subService: "IT Training",
-        serviceID: 23
       }
     ]
   }

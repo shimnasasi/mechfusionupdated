@@ -13,14 +13,12 @@ const NavBar = () => {
   return (
     <div className="NavBar-container">
       <Link to={"/"}>
-        <span className="navHead">
-          <div className="mffootwrapper">
-            <span className="FooterMainHead">
-              Mech<span className="fusion">Fusion</span>
-            </span>
-            {/* <span>Engineering Solutions</span> */}
+        <div className="mfNavHeadWrapper">
+          <div className="mech1">
+            Mech<span className="fusion1">fusion</span>
           </div>
-        </span>
+          <span className="esWrapper">e n g i n e e r i n g <span className="solution">s o l u t i o n s</span> </span>
+        </div>
       </Link>
       <FaBars
         className="navIcon"
