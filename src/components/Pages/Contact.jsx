@@ -9,6 +9,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
 
 const Contact = () => {
   const sendEmail = (e) => {
@@ -26,60 +27,14 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    // <Layout>
-    //   <PageTop PageName="Contact us" />
-
-    //   <div className="contact-container ">
-    //     <form onSubmit={sendEmail} className=" ">
-    //       {/* <h2>Get in Touch</h2> */}
-    //       <div className="inputwrapper">
-    //         <label htmlFor="user_name">Name</label>
-    //         <input
-    //           type="text"
-    //           className=" "
-    //           placeholder="Your Full Name"
-    //           name="user_name"
-    //           required
-    //         />
-    //       </div>
-    //       <div className="inputwrapper">
-    //         <label htmlFor="user_email">Email</label>
-    //         <input
-    //           type="text"
-    //           className=""
-    //           placeholder="Your Email Address"
-    //           name="user_email"
-    //           required
-    //         />
-    //       </div>
-    //       <div className="inputwrapper">
-    //         <label htmlFor="user_number">Contact Number </label>
-    //         <input
-    //           type="text"
-    //           className=" "
-    //           placeholder="Your Phone Number"
-    //           name="user_number"
-    //           required
-    //         />
-    //       </div>
-    //       <div className="inputwrapper">
-    //         <label htmlFor="">Your message</label>
-    //         <textarea
-    //           className="  "
-    //           placeholder="Enter Your Message Here"
-    //         ></textarea>
-    //       </div>
-    //       <button className=" ">Send message</button>
-    //     </form>
-
-    //     {/* <iframe
-    //       title="myFrame"
-    //       className=" w-[22rem] md:w-[25rem] h-[10rem] mt-10 ml-[2.5rem] md:ml-0 "
-    //       src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.9344122337816!2d77.56663177460582!3d13.103341511977225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19da06202f0f%3A0xf4ec8ed295f83a94!2sSuvilla%20residency!5e0!3m2!1sen!2sin!4v1708938681579!5m2!1sen!2sin"
-    //     ></iframe> */}
-    //   </div>
-    // </Layout>
     <Layout>
+      <Helmet>
+        <link rel="canonical" href={`${window.location.origin}/contact`} />
+        <meta
+            name="description"
+            content="Mechfusion delivers expert engineering and manufacturing solutions, combining innovation and precision to meet diverse industry needs with unmatched quality."
+          />
+      </Helmet>
       <div className="contactContainer">
         <PageTop PageName="Contact Us" />
         <div className="contactDetails">

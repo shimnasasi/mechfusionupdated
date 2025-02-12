@@ -1,0 +1,15 @@
+.hmAccordion-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 0;
+  background-color: #fff;
+  /* background: linear-gradient(to bottom, var(--white), var(--gray),var(--white)); */
+}
+.hmAccordion-container h2 {
+  color:var(--blue);
+  text-align: center;
+  font-size: 2rem;
+}

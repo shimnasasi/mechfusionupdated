@@ -5,7 +5,8 @@ import other from "../Assets/13.webp";
 
 export const serviceData = [
   {
-    name: "Mechanical Design",
+    urlname:"mechanical-design",
+    name: "Mechanical-Design",
     img1: mechanical,
     id: 1,
     services: [
@@ -27,9 +28,13 @@ export const serviceData = [
       { service: "R&D Design" },
     ],
     para: "At Mechfusion, we specialize in providing innovative and precise mechanical design solutions to meet the unique needs of our clients. Our team of experienced engineers combines cutting-edge technology with practical expertise to design and develop high-quality mechanical systems and components that drive efficiency, performance, and sustainability. Whether you need to create custom machinery, improve existing systems, or develop new product prototypes, our mechanical design services encompass the full product development lifecycle—from concept to manufacturing. We work across various industries, including automotive, aerospace, industrial equipment, consumer products, and more.",
+    title: "Jigs, Fixture & Mould Design Services in Australia, USA, UK",
+    description: "Expert jigs, fixtures, and mould design services by Mechfusion in Australia, USA, Canada and UK. Tailored solutions for precision manufacturing and innovation.",
   },
+  
   {
-    name: "CNC Programming",
+    urlname:"cnc-programming",
+    name: "CNC-Programming",
     img1: cnc,
     id: 2,
     services: [
@@ -41,9 +46,12 @@ export const serviceData = [
       { service: "CNC Programming Optimization" },
     ],
     para: "Mechfusion specializes in delivering precise and efficient CNC programming services tailored to meet the diverse needs of various industries. With a team of experienced programmers and advanced software tools, we create optimized programs that ensure high-quality machining, improved production efficiency, and minimal waste. Whether it’s for milling, turning, or multi-axis machining, our solutions are designed to enhance operational performance and achieve exceptional accuracy. We work closely with our clients to understand their specific requirements, delivering reliable and cost-effective programming services that drive results and maintain the highest standards of quality.",
+    title: "CNC Programming Services in Australia, USA, UK | Mechfusion",
+    description:"Professional CNC programming services by Mechfusion in Australia, USA, Canada and UK. Precision, efficiency, and tailored solutions for your manufacturing needs.",
   },
   {
-    name: "Engineering Documentation",
+     urlname:"engineering-documentation",
+    name: "Engineering-Documentation",
     id: 3,
     img1: documentation,
     services: [
@@ -59,9 +67,11 @@ export const serviceData = [
       { service: "First Article Inspection Report (FAIR)" },
     ],
     para: "Mechfusion offers comprehensive engineering documentation services designed to ensure accuracy, consistency, and compliance with industry standards. Our experienced team specializes in creating, reviewing, and managing a wide range of technical documents, including engineering drawings, specifications etc. By leveraging advanced tools and processes, we deliver documentation that supports clear communication, seamless project workflows, and efficient lifecycle management. Tailored to meet the unique needs of each client, our services provide reliable and well-organized records that enhance operational efficiency and support long-term project success.",
+    // title: "Jigs and Fixtures",
   },
   {
-    name: "Other Services",
+     urlname:"other-services",
+    name: "Other-Services",
     id: 4,
     img1: other,
     services: [
@@ -72,5 +82,6 @@ export const serviceData = [
       
     ],
     para: "Mechfusion your premier provider of Engineering services tailored to meet your design and manufacturing needs. With years of expertise in the industry, we pride ourselves on delivering innovative solutions that streamline your production processes and bring your ideas to life with precision and efficiency. Our dedicated team of skilled professionals utilizes cutting edge technology and software to deliver high quality designs, prototyping, and manufacturing services that exceed expectations. We are committed to provide personalized attention and customized solutions to help you achieve your goals. We deliver professional services including full range of Mechanical CAD/CAM services, Engineering documentation, Costing, etc",
+    // title: "Jigs and Fixtures",
   },
 ];

@@ -1,7 +1,7 @@
-import image1 from "../Assets/21.webp";
-import cnc from "../Assets/3.jpg";
-import Engineering from "../Assets/27.webp";
-import others from "../Assets/34.webp";
+import image1 from "../Assets/mechanicaldesign.webp";
+import cnc from "../Assets/cncprogramming.jpg";
+import Engineering from "../Assets/engineeringdocumentation.webp";
+import others from "../Assets/others.webp";
 
 
 export const servicelist = [
@@ -81,7 +81,7 @@ export const servicelist = [
   },
   {
     id: 2,
-    serviceName: "CNC Programming",
+    serviceName: "CNC-Programming",
     image: cnc,
     services: [
       {
@@ -112,7 +112,7 @@ export const servicelist = [
   },
   {
     id: 3,
-    serviceName: "Engineering Documentation",
+    serviceName: "Engineering-Documentation",
     image: Engineering,
     services: [
       {

@@ -5,18 +5,20 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import mfLogo from '../Assets/LOGO/logo.png';
 
 const Footer = () => {
   return (
     <div className="footer-mainWrapper">
       <div className="footer-container">
         <Link to={"/"}>
-               <div className="mfNavHeadWrapper">
+        <img src={mfLogo} alt="mechfusionLogo" className="logomf" />
+               {/* <div className="mfNavHeadWrapper">
                  <div className="mech1">
                    Mech<span className="fusion1">fusion</span>
                  </div>
                  <span className="esWrapper">e n g i n e e r i n g <span className="solution">s o l u t i o n s</span> </span>
-               </div>
+               </div> */}
              </Link>
         <div className="NavigationFooter">
           <h2>Navigation Links</h2>
@@ -30,10 +32,10 @@ const Footer = () => {
         <div className="NavigationFooter">
           <h2>Services</h2>
           <div className="navLinks">
-            <Link to={"/services/1"}>Mechanical Design</Link>
-            <Link to={"/services/2"}>CNC Programming</Link>
-            <Link to={"/services/3"}>Engineering Documentation</Link>
-            <Link to={"/services/4"}>Other Services</Link>
+            <Link to={"/services/mechanical-design"}>Mechanical Design</Link>
+            <Link to={"/services/cnc-programming"}>CNC Programming</Link>
+            <Link to={"/services/engineering-documentation"}>Engineering Documentation</Link>
+            <Link to={"/services/other-services"}>Other Services</Link>
           </div>
         </div>
         <div className="NavigationFooter">

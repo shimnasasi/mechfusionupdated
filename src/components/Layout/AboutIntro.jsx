@@ -2,10 +2,11 @@ import React from "react";
 import "./AboutIntro.css";
 import imageintro from "../../Assets/06.jpg";
 import { Link } from "react-router-dom";
-
 const AboutIntro = () => {
   return (
+
     <div className="AboutIntro-container">
+     
       <span className="Head">Who We Are ?</span>
       <div className="aboutIntroWrap">
         <img src={imageintro} alt="" className="imageintro" />

@@ -14,6 +14,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+ 
 }
 .BannerSmallHead {
   color: var(--white);
@@ -28,6 +29,11 @@
   font-size: 4rem;
   font-weight: 500;
   color: var(--white);
+  /* border: 1px solid red; */
+
+  height: 1rem;
+  display: flex;
+  align-items: center;
 }
 .bannerMainPara {
   color: var(--white);
@@ -38,6 +44,7 @@
   .bannerMainHead {
     font-size: 2.5rem;
     font-weight: 600;
+    height: 4rem;
   }
   .bannerMainPara {
     width: 95%;

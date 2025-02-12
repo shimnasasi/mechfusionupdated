@@ -84,6 +84,8 @@
   background-color: var(--white);
   border: none;
   color: var(--blue);
+  padding-left: 1rem;
+  border-radius: .2rem;
 }
 .contactForm textarea {
   height: 10rem;

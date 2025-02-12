@@ -7,7 +7,7 @@ const HomeBanner = () => {
     <div className="HomeBanner-container">
       <div className="HomeBannerShadow">
         <span className="BannerSmallHead">Mechfusion</span>
-        <span className="bannerMainHead">The Art of Engineering</span>
+        <h1 className="bannerMainHead">The Art of Engineering</h1>
         <span className="bannerMainPara">
           At Mechfusion, we nurture a culture of innovation, collaboration, and
           growth. We’re driven by creativity and a shared passion for

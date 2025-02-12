@@ -2,10 +2,10 @@ import React from "react";
 import "./ServiceList.css";
 // import { servicelist } from "../../utils/servicesList";
 import { Link } from "react-router-dom";
-import design from "../../Assets/21.webp";
-import documentation from "../../Assets/27.webp";
-import others from "../../Assets/34.webp";
-import cnc from "../../Assets/1.jpg";
+import design from "../../Assets/mechanicaldesign.webp";
+import documentation from "../../Assets/engineeringdocumentation.webp";
+import others from "../../Assets/others.webp";
+import cnc from "../../Assets/cncprogramming.jpg";
 
 const ServiceList = () => {
   return (
@@ -45,7 +45,7 @@ const ServiceList = () => {
         ))} */}
 
         <div className="servicelist">
-          <Link to={"/services/1"}>
+          <Link to={"/services/mechanical-design"}>
             <div className="mechanicaldesign">
               <img className="designimg" src={design} alt="" />
               <div className="design">
@@ -76,7 +76,7 @@ const ServiceList = () => {
               </div>
             </div>
           </Link>
-          <Link to={"/services/2"}>
+          <Link to={"/services/cnc-programming"}>
             <div className="cncProgramming">
               <img className="designimg" src={cnc} alt="" />
               <div className="design">
@@ -94,7 +94,7 @@ const ServiceList = () => {
               </div>
             </div>
           </Link>
-          <Link to={"/services/3"}>
+          <Link to={"/services/engineering-documentation"}>
             <div className="cncProgramming">
               <img className="designimg" src={documentation} alt="" />
               <div className="design">
@@ -116,7 +116,7 @@ const ServiceList = () => {
               </div>
             </div>
           </Link>
-          <Link to={"/services/4"}>
+          <Link to={"/services/other-services"}>
             <div className="cncProgramming">
               <img className="designimg" src={others} alt="" />
               <div className="design">

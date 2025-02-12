@@ -7,18 +7,21 @@ import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaBars } from "react-icons/fa6";
 import SideIcons from "./SideIcons";
+import mfLogo from '../Assets/LOGO/logo.png';
+// import mflogo1 from '../Assets/LOGO/'
 
 const NavBar = () => {
   const [view, setView] = useState(false);
   return (
     <div className="NavBar-container">
       <Link to={"/"}>
-        <div className="mfNavHeadWrapper">
+      <img src={mfLogo} alt="mechfusionLogo" className="logomf" />
+        {/* <div className="mfNavHeadWrapper">
           <div className="mech1">
             Mech<span className="fusion1">fusion</span>
           </div>
           <span className="esWrapper">e n g i n e e r i n g <span className="solution">s o l u t i o n s</span> </span>
-        </div>
+        </div> */}
       </Link>
       <FaBars
         className="navIcon"
@@ -39,6 +42,9 @@ const NavBar = () => {
           </Link>
           <Link to={"/career"}>
             <li>Career</li>
+          </Link>
+          <Link to={"/blog"}>
+            <li>Blog</li>
           </Link>
           <Link to={"/contact"}>
             <li>Contact us</li>
@@ -87,6 +93,7 @@ const NavBar = () => {
         <Link to={"/about"}>About us</Link>
         <Link to={"/services"}>services</Link>
         <Link to={"/career"}>career</Link>
+        <Link to={"/blog"}>Blog</Link>
         <Link to={"/contact"}>contact us</Link>
         {/* <button className="navBtn">
           <RiPhoneFill /> call

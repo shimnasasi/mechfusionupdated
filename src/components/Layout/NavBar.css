@@ -5,13 +5,12 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 35rem;
+  /* gap: 33rem; */
   /* justify-content:space-between ; */
   color: var(--white);
   position: absolute;
   z-index: 100;
   /* border: 1px solid ; */
-  
 }
 .engineeringSolution1 {
   color: var(--gray);
@@ -19,9 +18,8 @@
   /* margin-bottom: 1rem; */
   font-size: 0.62rem;
 }
-.solution 
-{
-  padding-left: .5rem;
+.solution {
+  padding-left: 0.5rem;
 }
 .mech1 {
   font-size: 3rem;
@@ -102,36 +100,32 @@
   border-radius: 5px;
   border: 1px solid var(--gray);
 }
-.mfNavHeadWrapper
-{
+.mfNavHeadWrapper {
   /* border: 1px solid ; */
   position: relative;
-  height:8vh ;
+  height: 8vh;
   display: flex;
   align-items: start;
 }
-.esWrapper
-{
+.esWrapper {
   position: absolute;
   bottom: 0;
   right: 0;
-  font-size: .6rem;
-  text-transform:uppercase;
+  font-size: 0.6rem;
+  text-transform: uppercase;
   color: var(--gray);
 }
-/* .navBtn{
-  border: 1px solid red;
-  height: 2rem;
-  color: red;
-} */
+
+.logomf {
+  width: 17rem;
+  padding-top: 1rem;
+}
 @media (max-width: 768px) {
-  .mfNavHeadWrapper
-  {
-    height:7.8vh ;
+  .mfNavHeadWrapper {
+    height: 7.8vh;
   }
-  .esWrapper
-  {
-    font-size: .4rem;
+  .esWrapper {
+    font-size: 0.4rem;
   }
   .NavBar-container .navIcon {
     display: flex;
@@ -143,11 +137,9 @@
     color: var(--gray);
     padding-left: 6.5rem;
     /* padding-bottom: 2rem; */
-    font-size: 0.40rem;
+    font-size: 0.4rem;
   }
-  .NavBar-container
-  {
-    gap: .5rem;
+  .NavBar-container {
+    gap: 0.5rem;
   }
-
 }

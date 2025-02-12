@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeAbout.css";
-import homeaboutimg from "../../Assets/5.jpg";
+import homeaboutimg from "../../Assets/engineeringservices.jpg";
 import { Link } from "react-router-dom";
 
 const HomeAbout = () => {
@@ -8,10 +8,10 @@ const HomeAbout = () => {
     <div className="AboutIntro-container">
       {/* <span className="Head">Who We Are ?</span> */}
       <div className="aboutIntroWrap">
-        <img src={homeaboutimg} alt="" className="homeaboutimg" />
+        <img src={homeaboutimg} alt="engineeringservices" className="homeaboutimg" />
 
         <div className="wrapDetails">
-          <span className="OtherHeads">What we Aimed about?</span>
+          <span className="aimabout">What we Aimed about?</span>
           <span className="abIntroPara">
           <span className="mechfusion">Mechfusion</span> is your trusted partner for engineering services,
             expertly crafted to address your design and manufacturing

@@ -1,0 +1,78 @@
+.accordion {
+  margin: 0 auto;
+  width: 60%;
+  /* border-radius: 8px; */
+  overflow: hidden;
+  /* border: 1px solid #0aaca4; */
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.accordion-item {
+  border: 1px solid #024a46;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  cursor: pointer;
+  background: linear-gradient(to bottom, var(--blue), var(--darkblue));
+  /* background-color: #6e3939; */
+  transition: background-color 0.3s;
+  color: white;
+}
+
+.accordion-header:hover {
+  background: linear-gradient(to bottom, var(--darkblue), var(--blue));
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  padding: 0 1rem;
+  /* background: linear-gradient(to bottom, #014e45, #02716c); */
+  /* background: linear-gradient(to bottom, var(--darkblue), var(--blue)); */
+background-color: var(--blue);
+
+  color: white;
+
+  /* border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid; */
+}
+
+.accordion-content.open {
+  max-height: 200px; /* You can adjust this to suit your content */
+  padding: 1rem;
+}
+
+.accordion-header .accordHead {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.accordion-header span {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+@media (max-width: 768px) {
+  .accordion-header {
+    padding: 1.2rem 1rem;
+  }
+  .accordion-header .accordHead {
+    font-size: 0.9rem;
+  }
+  .accordion {
+    width: 95%;
+  }
+
+  .accordion-content {
+    font-size: 0.9rem;
+  }
+}
