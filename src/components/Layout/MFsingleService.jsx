@@ -10,8 +10,10 @@ const MFsingleService = ({
   image,
   name,
   service,
+  paraSublist,
   title,
   description,
+  paralist,
 }) => {
   return (
     <div>
@@ -25,13 +27,22 @@ const MFsingleService = ({
         <div className="AboutIntro-container">
           <span className="service-NameHead">{name}</span>
           <div className="aboutIntroWrap">
-            <img src={image} alt="" className="imgmfpage" />
+            <img src={image} alt={name} className="imgmfpage" />
 
             <div className="wrapDetails">
               {/* <span className="OtherHeads">Our Vision</span> */}
               <span className="abIntroPara">{para}</span>
             </div>
           </div>
+        </div>
+        <div className="serviceSublist">
+          {paraSublist.map((list, index) => (
+           <div>
+            {/* <h4>{list.paraId}</h4> */}
+            <h4 className="sublistHead">{list.paraHead}</h4>
+            <p className="sublistPara">{list.paraContent}</p>
+           </div>
+          ))}
         </div>
 
         <div className="serviceWrapper">

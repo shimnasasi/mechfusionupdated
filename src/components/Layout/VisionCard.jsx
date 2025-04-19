@@ -6,7 +6,7 @@ const VisionCard = () => {
   return (
     <div className="VisionCardContainer">
       <div className="VCardWrapper">
-        <img src={vision} alt="" />
+        <img src={vision} alt="Vision" />
         <div className="vsionDetails">
           <span className="visionHead">Our Vision</span>
           <span className="VisionPara">

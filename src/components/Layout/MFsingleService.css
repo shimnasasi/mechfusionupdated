@@ -41,6 +41,28 @@
   color: var(--white);
   background: linear-gradient(to right, var(--blue), var(--darkblue));
 }
+.serviceSublist
+{
+  /* width: 100%; */
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 170px;
+
+}
+.sublistPara
+{
+  text-align: justify;
+  width: 81%;
+  color: var(--gray);
+
+}
+.sublistHead
+{
+  color: var(--blue);
+}
 @media (max-width: 768px) {
   .imgmfpage {
     width: 95%;
@@ -50,4 +72,13 @@
   .service-NameHead {
     font-size: 2rem;
   }
+  .sublistPara
+  {
+    width: 95%;
+  }
+  .serviceSublist
+  {
+    padding-left: 1rem;
+  }
+
 }

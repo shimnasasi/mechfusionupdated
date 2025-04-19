@@ -2,7 +2,7 @@ import React from "react";
 import "./Blog.css";
 import Layout from "../Layout/Layout";
 import PageTop from "../Layout/PageTop";
-import blog1 from "../../Assets/18.jpg";
+// import blog1 from "../../Assets/18.jpg";
 import HomeContact from "../Layout/HomeContact";
 import { blogPagelist } from "../../utils/bloglist";
 import { Link } from "react-router-dom";

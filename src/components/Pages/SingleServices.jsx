@@ -34,6 +34,7 @@ const SingleServices = () => {
               key={service.urlname}
               image={service.img1}
               para={service.para}
+              paraSublist={service.paralist}
               name={service.name}
               service={service.services}
               description={service.description}

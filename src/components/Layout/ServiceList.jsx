@@ -12,7 +12,7 @@ const ServiceList = () => {
     <div className="ServiceList-Container">
       <div className="serviceWrapper">
         <span className="mainhead">Mechfusion</span>
-        <p>
+        <p className="wrapperpara">
           With years of expertise in the industry, we pride ourselves on
           delivering innovative solutions that streamline your production
           processes and bring your ideas to life with precision and efficiency.
@@ -47,7 +47,7 @@ const ServiceList = () => {
         <div className="servicelist">
           <Link to={"/services/mechanical-design"}>
             <div className="mechanicaldesign">
-              <img className="designimg" src={design} alt="" />
+              <img className="designimg" src={design} alt="mechanical-design" />
               <div className="design">
                 <div className="h11">Mechanical Design</div>
                 <div className="list">
@@ -78,7 +78,7 @@ const ServiceList = () => {
           </Link>
           <Link to={"/services/cnc-programming"}>
             <div className="cncProgramming">
-              <img className="designimg" src={cnc} alt="" />
+              <img className="designimg" src={cnc} alt="cnc-programming" />
               <div className="design">
                 <div className="h11">CNC Programming</div>
                 <div className="list">
@@ -96,7 +96,11 @@ const ServiceList = () => {
           </Link>
           <Link to={"/services/engineering-documentation"}>
             <div className="cncProgramming">
-              <img className="designimg" src={documentation} alt="" />
+              <img
+                className="designimg"
+                src={documentation}
+                alt="engineering-documentation"
+              />
               <div className="design">
                 <div className="h11">Engineering Documentation</div>
                 <div className="list">
@@ -118,7 +122,7 @@ const ServiceList = () => {
           </Link>
           <Link to={"/services/other-services"}>
             <div className="cncProgramming">
-              <img className="designimg" src={others} alt="" />
+              <img className="designimg" src={others} alt="other Services" />
               <div className="design">
                 <div className="h11">Other Services</div>
                 <div className="list">
@@ -133,6 +137,57 @@ const ServiceList = () => {
             </div>
           </Link>
         </div>
+      </div>
+      <div className="whycontainer">
+        <p className="servicepara">
+          Engaged for long years in the industry, we have always taken pride in
+          serving globally recognized CAD CAM services to clients across the
+          globe, including the U.S., Canada, Australia, or Europe. we proudly
+          present our innovative solutions to refine your entire production
+          processes, making them much more technically capable of bringing your
+          idea to life with definite finesse and efficiency. The company that
+          designs and prototypes beyond the norm makes sure that an extremely
+          well-trained staff of professionals carries out the task using
+          state-of-the-art technology and software solutions. Customer-centric
+          solutions are offered depending upon the demands of the customers with
+          special attention to fulfill all requirements.
+        </p>
+        <h3>Why Us?</h3>
+        <ul>
+          <li>🌍 Global Reach: Successfully completed projects worldwide </li>
+          <li>
+            🧠 Expert Team: A highly qualified and experienced team of
+            mechanical engineers
+          </li>
+          <li>
+            💼 10+ Years of Experience: Proven track record of delivery in
+            engineering excellence
+          </li>
+        </ul>
+        <p>
+          With deep domain knowledge and technical expertise, we offer the
+          following services
+        </p>
+        <ul>
+          <li>Mechanical design</li>
+          <li> CNC Programming</li>
+          <li> Engineering documentation</li>
+          <li>Other services</li>
+        </ul>
+        <h3>End-to-End Support for Engineering Projects</h3>
+        <p className="servicepara">
+          This company puts everything in its place and manages a project from
+          conception to reality during mechanical engineering, designing,
+          detailing, and drafting with professionalism and precision. Such agile
+          workflows help communication, ensure timely delivery of projects, and
+          make cost-effective solutions possible.
+        </p>
+        <h3>Let's Build Something Great Together </h3>
+        <p className="servicepara">
+          Are you looking for engineering services you can trust to translate
+          your concept into a product? Reach out to us for a conversation about
+          your next project!
+        </p>
       </div>
     </div>
   );
