@@ -2,7 +2,7 @@ import mechanical from "../Assets/2.jpg";
 import cnc from "../Assets/7.jpg";
 import documentation from "../Assets/4.jpg";
 import other from "../Assets/13.webp";
-import { VscArchive } from "react-icons/vsc";
+// import { VscArchive } from "react-icons/vsc";
 
 export const serviceData = [
   {

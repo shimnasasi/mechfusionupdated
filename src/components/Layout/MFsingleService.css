@@ -4,9 +4,9 @@
   border-radius: 10px;
 }
 .service-NameHead {
-  font-size: 2rem;
+  /* font-size: 2rem; */
   color: var(--blue);
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 .serviceWrapper {
   display: flex;
@@ -16,8 +16,8 @@
   align-items: center;
 }
 .serviceWrapper .subHead {
-  font-size: 1.2rem;
-  font-weight: 500;
+  /* font-size: 1.2rem; */
+  /* font-weight: 500; */
   color: var(--blue);
 }
 .labelList {

@@ -140,7 +140,10 @@
   /* align-items: center; */
   padding-left: 15rem;
 }
-
+.whycontainer h3
+{
+  color: var(--blue);
+}
 @media (max-width: 768px) {
   .servicePageLink {
     display: flex;

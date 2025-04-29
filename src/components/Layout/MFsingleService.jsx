@@ -25,7 +25,7 @@ const MFsingleService = ({
           <meta name="description" content={description} />
         </Helmet>
         <div className="AboutIntro-container">
-          <span className="service-NameHead">{name}</span>
+          <h2 className="service-NameHead">{name}</h2>
           <div className="aboutIntroWrap">
             <img src={image} alt={name} className="imgmfpage" />
 
@@ -39,7 +39,7 @@ const MFsingleService = ({
           {paraSublist.map((list, index) => (
            <div>
             {/* <h4>{list.paraId}</h4> */}
-            <h4 className="sublistHead">{list.paraHead}</h4>
+            <h3 className="sublistHead">{list.paraHead}</h3>
             <p className="sublistPara">{list.paraContent}</p>
            </div>
           ))}
