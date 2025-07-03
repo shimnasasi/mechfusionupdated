@@ -24,7 +24,7 @@ const SingleBlog = () => {
         .map((list) => (
           <div className="singleblog-container">
             <img className="singleblog-img" src={list.image} alt="" />
-            <h2 className="singleblog-heading">{list.blogName}</h2>
+            <h2 className="singleblog-heading">{list.blogheading}</h2>
             {/* <p className="singleblog-para">{list.content}</p> */}
             <div className="ParaContainer">
               {list.paralist.map((paraList) => (

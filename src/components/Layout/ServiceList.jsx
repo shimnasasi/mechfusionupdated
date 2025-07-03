@@ -6,6 +6,7 @@ import design from "../../Assets/mechanicaldesign.webp";
 import documentation from "../../Assets/engineeringdocumentation.webp";
 import others from "../../Assets/others.webp";
 import cnc from "../../Assets/cncprogramming.jpg";
+// import { Link } from "react-router-dom";
 
 const ServiceList = () => {
   return (
@@ -17,8 +18,8 @@ const ServiceList = () => {
           delivering innovative solutions that streamline your production
           processes and bring your ideas to life with precision and efficiency.
           Our dedicated team of skilled professionals utilizes cutting-edge
-          technology and software to deliver high-quality designs, prototyping,
-          and manufacturing services that exceed expectations. We are committed
+          technology and software to deliver <strong> high-quality designs </strong> prototyping,
+          and <strong>  manufacturing services </strong> that exceed expectations. We are committed
           to provide personalized attention and customized solutions to help you
           achieve your goals.
         </p>
@@ -141,7 +142,7 @@ const ServiceList = () => {
       <div className="whycontainer">
         <p className="servicepara">
           Engaged for long years in the industry, we have always taken pride in
-          serving globally recognized CAD CAM services to clients across the
+          serving globally <strong>recognized CAD CAM services </strong> to clients across the
           globe, including the U.S., Canada, Australia, or Europe. we proudly
           present our innovative solutions to refine your entire production
           processes, making them much more technically capable of bringing your
@@ -169,15 +170,20 @@ const ServiceList = () => {
           following services
         </p>
         <ul>
-          <li>Mechanical design</li>
-          <li> CNC Programming</li>
-          <li> Engineering documentation</li>
-          <li>Other services</li>
+        <Link to={"/services/mechanical-design"}>
+          <li>Mechanical design</li></Link>
+          <Link to={"/services/cnc-programming"}>
+          <li> CNC Programming</li></Link>
+          <Link to={"/services/engineering-documentation"}>
+          <li> Engineering documentation</li></Link>
+          <Link to={"/services/other-services"}>
+          <li>Other services</li></Link>
+
         </ul>
         <h3>End-to-End Support for Engineering Projects</h3>
         <p className="servicepara">
           This company puts everything in its place and manages a project from
-          conception to reality during mechanical engineering, designing,
+          conception to reality during <strong> mechanical engineering </strong> , designing,
           detailing, and drafting with professionalism and precision. Such agile
           workflows help communication, ensure timely delivery of projects, and
           make cost-effective solutions possible.

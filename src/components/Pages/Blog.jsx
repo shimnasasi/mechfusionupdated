@@ -24,7 +24,7 @@ const Blog = () => {
             <div className="card">
               <img className="blog-img" src={list.image} alt="" />
 
-              <h3>{list.blogName}</h3>
+              <h3>{list.blogheading}</h3>
               <p className="card-para">{list.content}</p>
 
               <Link to={"/blog/" + list.blogName}>

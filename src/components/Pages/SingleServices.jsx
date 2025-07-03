@@ -38,6 +38,8 @@ const SingleServices = () => {
               name={service.name}
               service={service.services}
               description={service.description}
+              title={service.title}
+              heading={service.heading}
             />
           ))}
         </div>

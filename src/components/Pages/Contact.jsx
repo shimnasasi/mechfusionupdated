@@ -155,8 +155,10 @@ const Contact = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe> */}
+         
+          
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31087.827547256784!2d77.55617278585107!3d13.100552129077107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae18605dd9cf5d%3A0x1b1ce96486083bbb!2sYelahanka%20New%20Town%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1734083676675!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.097049932634!2d77.57903677660894!3d13.093035479312379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae193404657709%3A0x49c4bac5a2e86574!2sMechfusion%20Engineering%20Solutions%20LLP!5e0!3m2!1sen!2sin!4v1751117227460!5m2!1sen!2sin"
             className="Contactmap"
             title="map"
             allowFullScreen=""

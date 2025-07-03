@@ -4,8 +4,10 @@ import "./MFsingleService.css";
 // import { Link } from "react-router-dom";
 import PageTop from "./PageTop";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 const MFsingleService = ({
+  
   para,
   image,
   name,
@@ -13,7 +15,9 @@ const MFsingleService = ({
   paraSublist,
   title,
   description,
-  paralist,
+  // paralist,
+  // wordToBold,
+  heading
 }) => {
   return (
     <div>
@@ -21,11 +25,11 @@ const MFsingleService = ({
 
       <div className="mfcontainer">
         <Helmet>
-          {/* <title>{title}</title> */}
+          <title>{title}</title>
           <meta name="description" content={description} />
         </Helmet>
         <div className="AboutIntro-container">
-          <h2 className="service-NameHead">{name}</h2>
+          <h2 className="service-NameHead">{heading}</h2>
           <div className="aboutIntroWrap">
             <img src={image} alt={name} className="imgmfpage" />
 
@@ -37,16 +41,29 @@ const MFsingleService = ({
         </div>
         <div className="serviceSublist">
           {paraSublist.map((list, index) => (
-           <div>
-            {/* <h4>{list.paraId}</h4> */}
-            <h3 className="sublistHead">{list.paraHead}</h3>
-            <p className="sublistPara">{list.paraContent}</p>
-           </div>
+            <div>
+              {/* <h4>{list.paraId}</h4> */}
+              <h3 className="sublistHead">
+                {/* <Link to={list.link}>{list.paraHead}</Link> */}
+              </h3>
+              <h3 className="sublistHead">{list.paraHead}</h3>
+              <p className="sublistPara">
+                {/* <p className="sublistPara"> */}
+                {list.paraContent.split(list.linkText)[0]}
+                <Link to={list.linkTo}>{list.linkText}</Link>
+                {/* <strong>{list.wordToBold}</strong> */}
+                {list.paraContent.split(list.linkText)[1]}
+                {/* {list.paraContent.split(list.wordToBold)[0]}
+                  <strong>{list.wordToBold}</strong>
+                  {list.paraContent.split(list.wordToBold)[1]} */}
+                {/* </p> */}
+              </p>
+            </div>
           ))}
         </div>
-
+2
         <div className="serviceWrapper">
-          <span className="subHead">{name} Services</span>
+          <span className="subHead">{name}</span>
           <div className="labelList">
             {service.map((list, index) => (
               <span className="serviceLabel" key={index}>
