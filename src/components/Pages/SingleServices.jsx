@@ -108,11 +108,11 @@ const SingleServices = () => {
           para={service.intro}
           bullets={service.bullets}
           name={service.title}
-          service={[]} // if you want to add more details
+          service={[]}
           description=""
           title={service.title}
-          heading="" // use if needed
-          sections={service.sections} // optional: pass to component if supported
+          heading=""
+          sections={service.sections}
         />
       </div>
 
