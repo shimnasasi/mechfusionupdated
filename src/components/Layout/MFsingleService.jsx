@@ -97,7 +97,8 @@ const MFsingleService = ({
     <div>
       <Helmet>
         <title>{title} | Mechfusion</title>
-        <meta name="description" content={description || para} />
+        {/* <meta name="description" content={description} /> */}
+        <meta name="description" content={description} />
       </Helmet>
 
       <PageTop PageName={name} />

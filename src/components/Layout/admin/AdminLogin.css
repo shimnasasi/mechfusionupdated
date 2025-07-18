@@ -1,0 +1,88 @@
+/* AdminLogin.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  min-height: 100vh;
+}
+
+.admin-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.admin-login-card {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.admin-login-card h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: #2f3640;
+}
+
+.admin-login-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-login-card label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.admin-login-card input {
+  padding: 10px 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border 0.3s;
+}
+
+.admin-login-card input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.admin-login-card button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.admin-login-card button:hover {
+  background-color: #357ab8;
+}
+
+.admin-login-card button:disabled {
+  background-color: #7f8fa6;
+  cursor: not-allowed;
+}
+
+.admin-error {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
