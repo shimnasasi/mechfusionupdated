@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const HomeServices = () => {
   return (
     <div className="HomeServices-Container">
-      <span className="HomeserviceHead">Our Services</span>
+      <h4 className="HomeserviceHead">Our Services</h4>
       <br />
       <span className="homeservicePara">
         <span className="mechfusion">Mechfusion</span> provides expert

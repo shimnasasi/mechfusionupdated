@@ -48,8 +48,8 @@ const BlogDetailPage = () => {
                         <h2>Key Points</h2>
                         <ul  >
                             {blog.keyPoints.map((point, index) => (
-                                <li key={index} style={{ marginBottom: "1rem" }}>
-                                    <strong>{point.title}:</strong> {point.description}
+                                <li key={index} style={{ marginBottom: "1rem",color:"#060f31" }}>
+                                    <strong style={{color:"#041c5a"}}>{point.title}:</strong> {point.description}
                                 </li>
                             ))}
                         </ul>

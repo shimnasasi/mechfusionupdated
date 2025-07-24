@@ -11,11 +11,16 @@ const About = () => {
   return (
     <Layout>
       <Helmet>
+        <title>
+
+          Reverse Engineering Design & Cost Estimation Experts| Mechfusion</title>
         <link rel="canonical" href={`${window.location.origin}/about`} />
         <meta
           name="description"
-          content="Mechfusion delivers expert engineering and manufacturing solutions, combining innovation and precision to meet diverse industry needs with unmatched quality."
+          content="Offering reverse engineering design and cost estimation services to deliver accurate, efficient, and high-quality project outcomes."
         />
+
+        <meta name="keywords" content="Reverse Engineering Design" />
       </Helmet>
       <PageTop PageName="About us" />
       <AboutBanner />

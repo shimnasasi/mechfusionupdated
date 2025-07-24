@@ -12,11 +12,13 @@ const Home = () => {
     <Layout>
       <>
         <Helmet>
+          <title>Mechanical Design Service for Products | Mechfusion  </title>
           <link rel="canonical" href={`${window.location.origin}/`} />
           <meta
             name="description"
-            content="Mechfusion delivers expert engineering and manufacturing solutions, combining innovation and precision to meet diverse industry needs with unmatched quality."
+            content="Mechfusion offers expert product design backed by mechanical engineering to turn your ideas into accurate, manufacturable solutions."
           />
+          <meta name="keywords" content="Product Design" />
         </Helmet>
         <HomeBanner />
         <HomeAbout />

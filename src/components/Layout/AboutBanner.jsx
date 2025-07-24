@@ -15,10 +15,10 @@ const AboutBanner = () => {
       </div>
       <div className="aboutBanner-wrapper">
         <span className="smallHeading">Mechfusion</span>
-        <span className="aboutHead">
+        <h2 className="aboutHead">
           Your premier provider of tailored engineering design and manufacturing
           services
-        </span>
+        </h2>
         <span className="detailsAbout">
           "With years of industry expertise, we deliver innovative solutions to
           streamline production and bring ideas to life with precision and

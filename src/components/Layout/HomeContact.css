@@ -1,6 +1,6 @@
 .HomeContactContainer {
   width: 100%;
-  min-height: 60vh;
+  min-height: 50vh;
   display: flex;
   text-align: center;
   align-items: center;
@@ -12,10 +12,18 @@
 .HomeContactPara {
   color: var(--gray);
   font-size: 1.3rem;
+  
+   border: 1px   solid gray;
+  height: 0px;
+  border: none;
+  /* gap: -10px; */
 }
 .HomecontactHead {
   font-size: 2rem;
   color: var(--white);
+  border: 1px   solid gray;
+  height: 0px;
+  border: none;
 }
 .contactWrapper {
   width: 70%;

@@ -7,7 +7,7 @@ const AboutIntro = () => {
 
     <div className="AboutIntro-container">
      
-      <span className="Head">Who We Are ?</span>
+      <h4 className="Head">Who We Are ?</h4>
       <div className="aboutIntroWrap">
         <img src={imageintro} alt="" className="imageintro" />
 

@@ -11,11 +11,13 @@ const Blog = () => {
   return (
     <Layout>
       <Helmet>
+        <title></title>
         <link rel="canonical" href={`${window.location.origin}/blog`} />
         <meta
           name="description"
-          content="Mechfusion delivers expert engineering and manufacturing solutions, combining innovation and precision to meet diverse industry needs with unmatched quality."
+          content="Mechfusion delivers expert "
         />
+        <meta name="keywords" content="Design for Manufacturing (DFM)" />
       </Helmet>
       <PageTop PageName="Blog" />
       <div className="blog-container">

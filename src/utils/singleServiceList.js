@@ -31,10 +31,10 @@ export const serviceData = [
       { service: "R&D Design" },
     ],
     para: "Mechfusion gives mechanical design solutions which are clever and tailor made. The strength combines advanced engineering tools with deep domain knowledge to create bespoke mechanical systems and components that excel functionally but are efficient, durable, and sustainable The gap between the automotive, aerospace, industrial equipment, consumer products, and every other aspect meets the professionally skilled and knowledgeable engineers and designers. Right from the design and conceptualization stage, we become part of the journey of the manufacturing process to end-drawing. A client can convert his thoughts, beliefs, or ideas into reality through the customer's design.",
-    title: "Mechanical Design Engineering Services | Mechfusion",
+    title: " Jigs and Fixture Design Services & 2D 3D Conversion",
     description:
-      "Boost your product development with Mechfusion’s expert Mechanical Design Engineering Services—Jigs, Fixtures, Moulds, 3D/2D, R&D, VAVE, Prototypes & more!",
-
+      "Expert jigs and fixture design services with 2D to 3D conversion solutions for precise, efficient manufacturing across industries.",
+    keyword: "Jigs and Fixture design",
     paralist: [
       {
         paraId: 1,
@@ -143,9 +143,10 @@ export const serviceData = [
       { service: "CNC Programming Optimization" },
     ],
     para: "Mechfusion is ingenuity endowed for CNC programming, which is so precise and efficient that it can actually cover different fields and industry needs. The most experienced up to date programmers work with advanced software tools for optimized program creation ensuring excellent machining, maximization of production, and reduction of waste. We design solutions very well for milling, turning, or multi-axis machining-increased operational performance and exceptional accuracy. Our work goes beyond just programming since we go beyond getting all client specifications before delivering programming services that are both reliable and cost-effective with maximum results without compromising quality.",
-    title: "Professional Cnc Programming Service | Mechfusion",
+    title: "CNC Programming Services | Mold & Gauge Design Experts",
     description:
-      "Professional CNC programming services by Mechfusion in Australia, USA, Canada and UK. Precision, efficiency, and tailored solutions for your manufacturing needs.",
+      "We provide CNC programming services with mold and gauge design, CAM support, and machining process planning for accurate and fast results.",
+    keyword: "CNC Programming",
     paralist: [
       {
         paraId: 1,
@@ -224,7 +225,10 @@ export const serviceData = [
       { service: "First Article Inspection Report (FAIR)" },
     ],
     para: "Mechfusion offers comprehensive engineering documentation services designed to ensure accuracy, consistency, and compliance with industry standards. Our experienced team specializes in creating, reviewing, and managing a wide range of technical documents, including engineering drawings, specifications etc. By leveraging advanced tools and processes, we deliver documentation that supports clear communication, seamless project workflows, and efficient lifecycle management. Tailored to meet the unique needs of each client, our services provide reliable and well-organized records that enhance operational efficiency and support long-term project success.",
-    title: "Mechfusion: Expert Engineering & Manufacturing Solutions",
+    title: "Engineering Documentation & Electrode Design | Mechfusion",
+    description:
+      "Professional engineering documentation and electrode design services with 2D to 3D CAD conversion and DFM for accurate, efficient results.",
+    keyword: "Engineering Documentation",
     paralist: [
       {
         paraId: 1,
@@ -291,7 +295,9 @@ export const serviceData = [
       { service: "Prototype Manufacturing Support" },
     ],
     para: "Mechfusion your premier provider of Engineering services tailored to meet your design and manufacturing needs. With years of expertise in the industry, we pride ourselves on delivering innovative solutions that streamline your production processes and bring your ideas to life with precision and efficiency. Our dedicated team of skilled professionals utilizes cutting edge technology and software to deliver high quality designs, prototyping, and manufacturing services that exceed expectations. We are committed to provide personalized attention and customized solutions to help you achieve your goals. We deliver professional services including full range of Mechanical CAD/CAM services, Engineering documentation, Costing, etc",
-    title: "Mechfusion: Expert Engineering & Manufacturing Solutions",
+    title: "Mold Flow Analysis & Jigs and Fixture Design Services",
+    description: "Mold Flow Analysis and Jigs & Fixture Design services to enhance product quality, reduce defects, and improve manufacturing performance",
+    keyword: "Mold Flow Analysis",
     paralist: [
       {
         paraId: 1,

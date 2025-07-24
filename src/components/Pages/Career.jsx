@@ -9,17 +9,21 @@ const Career = () => {
   return (
     <Layout>
       <Helmet>
+        <title>
+
+          Engineering Careers & Mechanical Design Jobs | Mechfusion</title>
         <link rel="canonical" href={`${window.location.origin}/career`} />
         <meta
-            name="description"
-            content="Mechfusion delivers expert engineering and manufacturing solutions, combining innovation and precision to meet diverse industry needs with unmatched quality."
-          />
+          name="description"
+          content="Explore engineering careers at Mechfusion. Discover mechanical design jobs and grow with our innovative team in the CAD/CAM industry."
+        />
+        <meta name="keywords" content="Engineering Careers" />
       </Helmet>
       <PageTop PageName="Career" />
       <div className="CareerContainer">
         <div className="careerIntroWrapper">
           {" "}
-          <span className="careerHead">Mechfusion</span>
+          <h2 className="careerHead">Mechfusion</h2>
           <br />
           <span className="Careerintro">
             At <span className="mechfusion">Mechfusion</span>, we believe in
@@ -34,11 +38,11 @@ const Career = () => {
             part of a dynamic journey where your talent makes a difference!
           </span>
         </div>
-        <span className="applyLine">
+        <h4 className="applyLine">
           "To apply, send your resume and a cover letter to
           enquiry@mechfusion.in. Please mention the job title in the subject
           line."
-        </span>
+        </h4>
       </div>
       <HomeContact />
     </Layout>

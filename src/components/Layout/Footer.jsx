@@ -21,7 +21,7 @@ const Footer = () => {
                </div> */}
              </Link>
         <div className="NavigationFooter">
-          <h2>Navigation Links</h2>
+          <h3>Navigation Links</h3>
           <div className="navLinks">
             <Link to={"/"}>home</Link>
             <Link to={"/about"}>about us</Link>
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="NavigationFooter">
-          <h2>Services</h2>
+          <h3>Services</h3>
           <div className="navLinks">
             <Link to={"/services/mechanical-design"}>Mechanical Design</Link>
             <Link to={"/services/cnc-programming"}>CNC Programming</Link>
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="NavigationFooter">
-          <h2>Contact</h2>
+          <h3>Contact</h3>
           <div className="navLinks">
             <span>+91 879 222 0030</span>
             <a className="mailid" rel="noreferrer" href="mailto:info@dimark.ae">

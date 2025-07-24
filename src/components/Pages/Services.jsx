@@ -35,12 +35,13 @@ const Services = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Our Services | Mechfusion</title>
+        <title>Manufacturing Drawings & DFM Services – At Mechfusion</title>
         <link rel="canonical" href={`${window.location.origin}/services`} />
         <meta
           name="description"
-          content="Mechfusion delivers expert engineering and manufacturing solutions, combining innovation and precision to meet diverse industry needs with unmatched quality."
+          content="Get detailed manufacturing drawings and DFM services to reduce errors, improve design quality, and meet industry production standards"
         />
+        <meta name="keywords" content="Manufacturing Drawings" />
       </Helmet>
       <PageTop PageName="Services" />
       <ServiceList />

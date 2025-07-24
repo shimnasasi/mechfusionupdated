@@ -12,8 +12,8 @@ const ServiceList = () => {
   return (
     <div className="ServiceList-Container">
       <div className="serviceWrapper">
-        <span className="mainhead">Mechfusion</span>
-        <p className="wrapperpara">
+        <h2 className="mainhead">Mechfusion</h2>
+        <h4 className="wrapperpara">
           With years of expertise in the industry, we pride ourselves on
           delivering innovative solutions that streamline your production
           processes and bring your ideas to life with precision and efficiency.
@@ -22,7 +22,7 @@ const ServiceList = () => {
           and <strong>  manufacturing services </strong> that exceed expectations. We are committed
           to provide personalized attention and customized solutions to help you
           achieve your goals.
-        </p>
+        </h4>
         {/* {servicelist.map((service) => (
           <Link to={`/services/${service.id}`} className="cardLink">
           <div className="ServiceCard">

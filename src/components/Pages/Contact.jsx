@@ -29,11 +29,17 @@ const Contact = () => {
   return (
     <Layout>
       <Helmet>
+        <title>
+
+          Contact Mechfusion | Engineering Consultation Services</title>
         <link rel="canonical" href={`${window.location.origin}/contact`} />
         <meta
-            name="description"
-            content="Mechfusion delivers expert engineering and manufacturing solutions, combining innovation and precision to meet diverse industry needs with unmatched quality."
-          />
+          name="description"
+          content="Contact Mechfusion for expert engineering consultation and mechanical design services. Let’s bring precision to your next project"
+        />
+           <meta name="keywords" content=" 
+ 	
+Engineering Consultation Services" />
       </Helmet>
       <div className="contactContainer">
         <PageTop PageName="Contact Us" />
@@ -69,11 +75,11 @@ const Contact = () => {
           </div>
         </div>
         <div className="subHeadwraper">
-          <div className="subHead">
+          <h4 className="subHead">
             Get in touch with Mechfusion for expert engineering solutions
             tailored to your needs. Contact us today to bring your ideas to life
             with precision and innovation!
-          </div>
+          </h4>
         </div>
         <form onSubmit={sendEmail}>
           <div className="contactForm">
@@ -105,7 +111,7 @@ const Contact = () => {
           </div>
         </form>
         <div className="contactLinks">
-          <h2>Connect with us !</h2>
+          <h5 className="connect">Connect with us !</h5>
           <div className="iconLists">
             <a
               target="_blank"
@@ -155,8 +161,8 @@ const Contact = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe> */}
-         
-          
+
+
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.097049932634!2d77.57903677660894!3d13.093035479312379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae193404657709%3A0x49c4bac5a2e86574!2sMechfusion%20Engineering%20Solutions%20LLP!5e0!3m2!1sen!2sin!4v1751117227460!5m2!1sen!2sin"
             className="Contactmap"

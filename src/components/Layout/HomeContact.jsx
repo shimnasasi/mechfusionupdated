@@ -7,10 +7,10 @@ const HomeContact = () => {
     <div className="HomeContactContainer">
       <div className="contactWrapper">
         <div className="contactInfo">
-          <span className="HomecontactHead">
+          <h5 className="HomecontactHead">
             Interested in working with us?
-          </span>
-          <span className="HomeContactPara">Let`s Talk Now</span>
+          </h5>
+          <h6 className="HomeContactPara">Let`s Talk Now</h6>
         </div>
         <Link to={"/contact"}>
           <button>Contact </button>

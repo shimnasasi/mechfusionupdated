@@ -64,6 +64,7 @@
   gap: 5px;
 }
 .wrapperpara {
+  font-weight: 200;
   text-align: center;
   width: 80%;
 }

@@ -8,6 +8,7 @@ const BlogCard = ({ blog }) => {
     const handleReadMore = () => {
         navigate(`/blog/${blog.slug}`);
     };
+ 
 
     return (
         <div
