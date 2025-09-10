@@ -1,5 +1,5 @@
 import React from "react";
-import "./SingleBlog.css";
+// import "./SingleBlog.css";
 // import singleblog1 from "../../Assets/26.webp";
 import Layout from "./Layout";
 import PageTop from "./PageTop";

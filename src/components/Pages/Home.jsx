@@ -13,6 +13,7 @@ const Home = () => {
       <>
         <Helmet>
           <title>Mechanical Design Service for Products | Mechfusion  </title>
+            <meta property="og:title" content="Mechanical Design Service for Products | Mechfusion" />
           <link rel="canonical" href={`${window.location.origin}/`} />
           <meta
             name="description"

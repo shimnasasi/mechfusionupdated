@@ -116,7 +116,6 @@ import Career from "./components/Pages/Career";
 import Blog from "./components/Pages/Blog";
 import SingleBlog from "./components/Layout/SingleBlog";
 import PageNotFound from "./components/Pages/PageNotFound";
-
 import ScrollToTop from "./components/Layout/ScrollToTop";
 
 import AdminLogin from "./components/Layout/admin/AdminLogin";
@@ -128,11 +127,15 @@ import ServiceManager from "./components/Layout/admin/ServiceManager";
 import BlogManager from "./components/Layout/admin/BlogManager";
 import BlogPage from "./components/Pages/BlogPage";
 import BlogDetailPage from "./components/Pages/BlogDetailPage";
+import SchemaOrg from "./components/Layout/SchemaOrg";
+// import LocalBusinessSchema from "./components/Layout/LocalBusinessSchema";
 
 const App = () => {
   return (
     <HelmetProvider>
       <BrowserRouter>
+       <SchemaOrg/>
+        {/* <LocalBusinessSchema/> */}
         <ScrollToTop />
         <Routes>
           {/* Public Routes */}

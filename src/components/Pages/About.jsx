@@ -11,9 +11,8 @@ const About = () => {
   return (
     <Layout>
       <Helmet>
-        <title>
-
-          Reverse Engineering Design & Cost Estimation Experts| Mechfusion</title>
+        <title>Reverse Engineering Design & Cost Estimation Experts| Mechfusion</title>
+         <meta property="og:title" content="Reverse Engineering Design & Cost Estimation Experts| Mechfusion" />
         <link rel="canonical" href={`${window.location.origin}/about`} />
         <meta
           name="description"

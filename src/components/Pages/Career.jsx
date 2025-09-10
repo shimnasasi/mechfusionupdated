@@ -9,9 +9,9 @@ const Career = () => {
   return (
     <Layout>
       <Helmet>
-        <title>
+        <title>Engineering Careers & Mechanical Design Jobs | Mechfusion</title>
+         <meta property="og:title" content="Engineering Careers & Mechanical Design Jobs | Mechfusion" />
 
-          Engineering Careers & Mechanical Design Jobs | Mechfusion</title>
         <link rel="canonical" href={`${window.location.origin}/career`} />
         <meta
           name="description"

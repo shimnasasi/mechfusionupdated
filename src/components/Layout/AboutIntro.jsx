@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutIntro.css";
-import imageintro from "../../Assets/06.jpg";
+import imageintro from "../../Assets/06.webp";
 import { Link } from "react-router-dom";
 const AboutIntro = () => {
   return (

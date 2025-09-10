@@ -29,9 +29,8 @@ const Contact = () => {
   return (
     <Layout>
       <Helmet>
-        <title>
-
-          Contact Mechfusion | Engineering Consultation Services</title>
+        <title>Contact Mechfusion | Engineering Consultation Services</title>
+         <meta property="og:title" content="Contact Mechfusion | Engineering Consultation Services" />
         <link rel="canonical" href={`${window.location.origin}/contact`} />
         <meta
           name="description"

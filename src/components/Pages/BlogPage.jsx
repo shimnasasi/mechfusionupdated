@@ -29,6 +29,7 @@ const BlogPage = () => {
         <Layout>
             <Helmet>
                 <title>Design for Manufacturing (DFM) & CNC Programming | Mechfusion</title>
+                  <meta property="og:title" content="Design for Manufacturing (DFM) & CNC Programming | Mechfusion" />
                 <link rel="canonical" href={`${window.location.origin}/blog`} />
                 <meta
                     name="description"

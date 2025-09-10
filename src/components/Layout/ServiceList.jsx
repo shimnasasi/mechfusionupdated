@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import design from "../../Assets/mechanicaldesign.webp";
 import documentation from "../../Assets/engineeringdocumentation.webp";
 import others from "../../Assets/others.webp";
-import cnc from "../../Assets/cncprogramming.jpg";
+import cnc from "../../Assets/cncprogramming.webp";
 // import { Link } from "react-router-dom";
 
 const ServiceList = () => {

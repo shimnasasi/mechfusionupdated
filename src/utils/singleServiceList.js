@@ -1,6 +1,6 @@
-import mechanical from "../Assets/2.jpg";
-import cnc from "../Assets/7.jpg";
-import documentation from "../Assets/4.jpg";
+import mechanical from "../Assets/2.webp";
+import cnc from "../Assets/7.webp";
+import documentation from "../Assets/4.webp";
 import other from "../Assets/13.webp";
 // import { VscArchive } from "react-icons/vsc";
 

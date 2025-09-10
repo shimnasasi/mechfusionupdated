@@ -1,5 +1,5 @@
 import image1 from "../Assets/mechanicaldesign.webp";
-import cnc from "../Assets/cncprogramming.jpg";
+import cnc from "../Assets/cncprogramming.webp";
 import Engineering from "../Assets/engineeringdocumentation.webp";
 import others from "../Assets/others.webp";
 

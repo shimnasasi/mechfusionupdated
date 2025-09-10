@@ -12,6 +12,7 @@ const Blog = () => {
     <Layout>
       <Helmet>
         <title></title>
+        
         <link rel="canonical" href={`${window.location.origin}/blog`} />
         <meta
           name="description"
