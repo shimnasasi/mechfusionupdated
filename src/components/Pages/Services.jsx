@@ -41,7 +41,7 @@ const Services = () => {
           name="description"
           content="Get detailed manufacturing drawings and DFM services to reduce errors, improve design quality, and meet industry production standards"
         />
-        <meta name="keywords" content="Manufacturing Drawings" />
+        <meta name="keywords" content="Manufacturing Drawings,Design for Manufacturing (DFM)" />
       </Helmet>
       <PageTop PageName="Services" />
       <ServiceList />

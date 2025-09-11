@@ -18,7 +18,7 @@ const Blog = () => {
           name="description"
           content="Mechfusion delivers expert "
         />
-        <meta name="keywords" content="Design for Manufacturing (DFM)" />
+        <meta name="keywords" content="Design for Manufacturing (DFM),CNC Programming" />
       </Helmet>
       <PageTop PageName="Blog" />
       <div className="blog-container">

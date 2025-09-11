@@ -36,9 +36,7 @@ const Contact = () => {
           name="description"
           content="Contact Mechfusion for expert engineering consultation and mechanical design services. Let’s bring precision to your next project"
         />
-           <meta name="keywords" content=" 
- 	
-Engineering Consultation Services" />
+           <meta name="keywords" content="Engineering Consultation Services,Mechanical Design Experts" />
       </Helmet>
       <div className="contactContainer">
         <PageTop PageName="Contact Us" />

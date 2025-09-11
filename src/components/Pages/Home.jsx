@@ -19,7 +19,7 @@ const Home = () => {
             name="description"
             content="Mechfusion offers expert product design backed by mechanical engineering to turn your ideas into accurate, manufacturable solutions."
           />
-          <meta name="keywords" content="Product Design" />
+          <meta name="keywords" content="Product Design,Mechanical Design Service" />
         </Helmet>
         <HomeBanner />
         <HomeAbout />

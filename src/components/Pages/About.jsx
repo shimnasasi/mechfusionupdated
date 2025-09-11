@@ -19,7 +19,7 @@ const About = () => {
           content="Offering reverse engineering design and cost estimation services to deliver accurate, efficient, and high-quality project outcomes."
         />
 
-        <meta name="keywords" content="Reverse Engineering Design" />
+        <meta name="keywords" content="Reverse Engineering Design,Estimation and Costing" />
       </Helmet>
       <PageTop PageName="About us" />
       <AboutBanner />
