@@ -42,7 +42,7 @@ const Footer = () => {
           <h3>Contact</h3>
           <div className="navLinks">
             <span>+91 879 222 0030</span>
-            <a className="mailid" rel="noreferrer" href="mailto:info@dimark.ae">
+            <a className="mailid" rel="noreferrer" href="mailto:enquiry@mechfusion.in">
             enquiry@mechfusion.in
 
             </a>

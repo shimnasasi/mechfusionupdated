@@ -1,39 +1,15 @@
-// import React from "react";
-// import Layout from "../Layout/Layout";
-// import PageTop from "../Layout/PageTop";
-
-// import ServiceList from "../Layout/ServiceList";
-// import HomeContact from "../Layout/HomeContact";
-// import { Helmet } from "react-helmet-async";
-
-// const Services = () => {
-//   return (
-//     <Layout>
-//       <Helmet>
-//         <link rel="canonical" href={`${window.location.origin}/service`} />
-//         <meta
-//             name="description"
-//             content="Mechfusion delivers expert engineering and manufacturing solutions, combining innovation and precision to meet diverse industry needs with unmatched quality."
-//           />
-//       </Helmet>
-//       <PageTop PageName="Services" />
-//       <ServiceList />
-//       <HomeContact />
-//     </Layout>
-//   );
-// };
-
-// export default Services;
 import React from "react";
 import Layout from "../Layout/Layout";
-import PageTop from "../Layout/PageTop";
-import ServiceList from "../Layout/ServiceList";
-import HomeContact from "../Layout/HomeContact";
+import Sidebar from "../Layout/Sidebar";
 import { Helmet } from "react-helmet-async";
+import ServiceBanner from "../Layout/ServiceBanner";
+import HomeContact from "../Layout/HomeContact";
+import MechanicalDesign from "../Layout/MechanicalDesign";
 
 const Services = () => {
   return (
-    <Layout>
+    <div>
+    {/* <Layout> */}
       <Helmet>
         <title>Manufacturing Drawings & DFM Services – At Mechfusion</title>
         <link rel="canonical" href={`${window.location.origin}/services`} />
@@ -43,10 +19,12 @@ const Services = () => {
         />
         <meta name="keywords" content="Manufacturing Drawings" />
       </Helmet>
-      <PageTop PageName="Services" />
-      <ServiceList />
-      <HomeContact />
-    </Layout>
+      {/* <ServiceBanner /> */}
+      {/* <Sidebar /> */}
+      <MechanicalDesign/>
+      {/* <HomeContact /> */}
+    {/* </Layout> */}
+    </div>
   );
 };
 

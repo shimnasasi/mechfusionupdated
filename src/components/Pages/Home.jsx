@@ -6,6 +6,9 @@ import HomeContact from "../Layout/HomeContact";
 import HomeAbout from "../Layout/HomeAbout";
 import HomeAccordion from "../Layout/HomeAccordion";
 import { Helmet } from "react-helmet-async";
+import Whychoose from "../Layout/Whychoose";
+import Countries from "../Layout/Countries";
+import Industries from "../Layout/Industries";
 
 const Home = () => {
   return (
@@ -20,10 +23,14 @@ const Home = () => {
             content="Mechfusion offers expert product design backed by mechanical engineering to turn your ideas into accurate, manufacturable solutions."
           />
           <meta name="keywords" content="Product Design" />
+        <meta name="robots" content="index, follow" />
         </Helmet>
         <HomeBanner />
         <HomeAbout />
         <HomeServices />
+        <Whychoose/>
+        <Countries/>
+        <Industries/>
         <HomeAccordion />
         <HomeContact />
       </>

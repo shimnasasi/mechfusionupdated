@@ -10,6 +10,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { Helmet } from "react-helmet-async";
+import ContactBanner from "../Layout/ContactBanner";
 
 const Contact = () => {
   const sendEmail = (e) => {
@@ -30,47 +31,56 @@ const Contact = () => {
     <Layout>
       <Helmet>
         <title>Contact Mechfusion | Engineering Consultation Services</title>
-         <meta property="og:title" content="Contact Mechfusion | Engineering Consultation Services" />
+        <meta property="og:title" content="Contact Mechfusion | Engineering Consultation Services" />
         <link rel="canonical" href={`${window.location.origin}/contact`} />
         <meta
           name="description"
           content="Contact Mechfusion for expert engineering consultation and mechanical design services. Let’s bring precision to your next project"
         />
-           <meta name="keywords" content=" 
+        <meta name="keywords" content=" 
  	
 Engineering Consultation Services" />
       </Helmet>
+      <ContactBanner/>
       <div className="contactContainer">
-        <PageTop PageName="Contact Us" />
+        {/* <PageTop PageName="Contact Us" /> */}
         <div className="contactDetails">
           <h2>get in touch with us !</h2>
           <div className="cardList">
-            <div className="contactCard">
-              <a
-                href="https://wa.me/+918792220030/?text=let me know more about the services provided by *MechFusion*"
-                target="_blank"
-                rel="noreferrer"
-                title="Whatsapp"
-              >
+            <a
+              href="tel:+918792220030"
+              target="_blank"
+              title="Call"
+              rel="noreferrer"
+            >
+              <div className="contactCard">
                 <IoPhonePortraitOutline className="contactIcon" />
-              </a>
-
-              <span className="cardhead">phone</span>
-              <span className="carddetails">Phone:+91 879 222 0030</span>
-              {/* <span className="carddetails">***********</span> */}
-            </div>
-            <div className="contactCard">
+                <span className="cardhead">phone</span>
+                <span className="carddetails">Phone:+91 879 222 0030</span>
+                {/* <span className="carddetails">***********</span> */}
+              </div>
+            </a>
+            <div className="contactCard"> 
+              
               <IoLocationOutline className="contactIcon" />
-              <span className="cardhead">Address</span>
-              <span className="carddetails">Bangalore</span>
+              <span className="cardhead1">2nd Floor, Mechfusion Engineering Solutions LLP, No. 303, 15th Cross Rd, Chikka Bommasandra, Yelahanka New Town, Bengaluru, Karnataka 560064 India</span>
+              {/* <span className="carddetails">Bangalore</span>
               <span className="carddetails">Karnataka India</span>
+               <span className="carddetails">Bangalore</span>
+              <span className="carddetails">Karnataka India</span> */}
             </div>
+            <a
+              href="mailto:enquiry@mechfusion.in"
+              target="_blank"
+              title="Email"
+              rel="noreferrer"
+            >
             <div className="contactCard">
               <MdMailOutline className="contactIcon" />
               <span className="cardhead">Mail</span>
               {/* <span className="carddetails">Mail to us</span> */}
               <span className="carddetails">enquiry@mechfusion.in</span>
-            </div>
+            </div></a>
           </div>
         </div>
         <div className="subHeadwraper">
@@ -95,7 +105,7 @@ Engineering Consultation Services" />
               placeholder="Your Number"
             />
 
-            <input
+            <input className="input1"
               type="email"
               name="user_email"
               required

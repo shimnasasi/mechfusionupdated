@@ -1,0 +1,181 @@
+.blogonecontainer {
+    background-color: white;
+    display: flex;
+    padding: 4rem 5rem;
+    gap: 2rem;
+}
+
+/* BLOG SECTION */
+.blogsection {
+    flex: 3;
+}
+
+.blogone {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* IMAGE */
+.blogoneimage {
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.blogoneheading {
+    color: var(--blue);
+}
+
+.blogone p {
+    text-align: justify;
+}
+
+/* BUTTON FIX */
+.blogsection button {
+    background: linear-gradient(to top, var(--darkblue), rgb(44, 44, 96));
+    color: white;
+    padding: 6px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+
+    display: inline-flex;
+    /* good for content width */
+
+    align-items: center;
+    justify-content: center;
+
+    /* font-weight: 500; */
+
+    width: fit-content;
+}
+
+/* LIST FIX */
+.blogsection ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.blogsection li {
+    margin-bottom: 8px;
+}
+
+/* SIDEBAR */
+.sidebar {
+    flex: 1;
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 20px 0;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.sidebar-header {
+    background-color: var(--blue);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 18px;
+    margin: 0 15px 15px;
+    border-radius: 8px;
+}
+
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-list li {
+    padding: 12px 25px;
+    font-size: 15px;
+    color: #334155;
+    border-bottom: 1px solid #e2e8f0;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sidebar-list li::before {
+    content: "›";
+    position: absolute;
+    left: 10px;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.sidebar-list li:hover {
+    background: #eaf2ff;
+    color: #1e3a8a;
+}
+
+.sidebar-list li:last-child {
+    border-bottom: none;
+}
+
+/* HEADINGS */
+.blogsection h2,
+.blogsection h3 {
+    color: var(--blue);
+}
+
+/* GLOBAL IMAGE FIX */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ------------------ TABLET ------------------ */
+
+@media (max-width:992px) {
+
+    .blogonecontainer {
+        flex-direction: column;
+        padding: 3rem;
+    }
+
+    .blogone {
+        flex-direction: column;
+    }
+
+    a .sidebar {
+        width: 100%;
+        margin-top: 2rem;
+    }
+     .blogsection button {
+        width: 80%;
+    }
+
+}
+
+/* ------------------ MOBILE ------------------ */
+
+@media (max-width:600px) {
+
+    .blogonecontainer {
+        padding: 1.5rem;
+    }
+
+    .blogsection {
+        padding-right: 50px;
+    }
+
+
+    .blogone {
+        gap: 1rem;
+    }
+
+    .blogsection button {
+        width: 80%;
+    }
+
+    .sidebar-header {
+        font-size: 14px;
+    }
+
+    .sidebar-list li {
+        font-size: 14px;
+    }
+
+}

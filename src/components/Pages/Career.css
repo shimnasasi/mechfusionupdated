@@ -1,13 +1,14 @@
 .CareerContainer {
   width: 100%;
   /* min-height: 80vh; */
+  /* height: 60vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: #fff;
-  padding: 7rem 0;
+  /* padding: 7rem 0; */
   gap: 1rem;
 }
 .careerHead {

@@ -2,43 +2,49 @@
   width: 100%;
   /* min-height: 100vh; */
   color: var(--white);
-  /* background-color: red; */
+  background-color:white;
   text-align: center;
-  background: linear-gradient(to bottom, var(--blue), var(--darkblue));
+  color: black;
+  padding-top: 2rem;
+  
+  /* background: linear-gradient(to bottom, var(--blue), var(--darkblue)); */
 }
 
 .contactDetails {
   width: 100%;
-  min-height: 50vh;
+  min-height: 40vh;
+  color:var(--blue);
 }
 
 .contactDetails h2,
 .contactLinks h2 {
   text-transform: capitalize;
-  color: var(--white);
+  /* color: var(--white); */
   text-align: center;
   font-weight: 400;
   font-style: italic;
 }
 
 .contactCard {
-  color: var(--white);
+  /* color: var(--white); */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 0.3rem;
-  border-bottom: 1px solid var(--white);
-  border-top: 1px solid var(--white);
+  border-bottom: 1px solid var(--blue);
+  border-top: 1px solid var(--blue);
   padding: 1rem;
   width: 13rem;
   height: 10rem;
+  color: var(--blue);
 }
+
 
 .contactIcon {
   font-size: 2.5rem;
 
-  color: var(--white);
+  /* color: var(--white); */
 }
 
 .cardhead {
@@ -63,6 +69,7 @@
   text-transform: uppercase;
 }
 
+
 @keyframes changecolor {
   0% {
     color: var(--white);
@@ -84,6 +91,7 @@
   align-items: center;
   gap: 1rem;
   padding: 3rem 0;
+  
 }
 
 .contactForm input,
@@ -93,25 +101,34 @@
   font-size: 1rem;
   width: 45%;
   outline: none;
-  background-color: var(--white);
+  background-color:rgb(245, 242, 242);
   border: none;
   color: var(--blue);
   padding-left: 1rem;
-  border-radius: .2rem;
+  border-radius: .1rem;
 }
 
 .contactForm textarea {
   height: 10rem;
 }
+.Contactmap2
+{
+  /* display: none; */
+
+  width: 1rem;
+  height: 1rem;
+}
 
 .contactForm button {
   padding: 0.5rem 1rem;
   font-family: inherit;
-  background-color: var(--white);
+  background-color: rgb(244, 241, 241);
   border: 1px solid var(--white);
   font-weight: 400;
   text-transform: capitalize;
-  font-size: 1rem;
+ 
+  color: var(--blue);
+  font-weight: 700;
 }
 
 .contactLinks {
@@ -161,13 +178,16 @@
   text-transform: capitalize;
   width: 65%;
   font-weight: 200;
+  color: var(--blue);
 }
 .connect
 {
   font-size: 1.5rem;
-  font-weight: 200;
+  font-weight: 600;
+  color: var(--blue);
 
 }
+
 
 @media (max-width: 768px) {
   .Contactmap {
@@ -177,6 +197,7 @@
   .cardList {
     flex-direction: column;
   }
+
 
   /* .contactContainer {
     display: flex;

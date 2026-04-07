@@ -4,6 +4,7 @@ import PageTop from "../Layout/PageTop";
 import HomeContact from "../Layout/HomeContact";
 import "./Career.css";
 import { Helmet } from "react-helmet-async";
+import CareerBanner from "../Layout/CareerBanner";
 
 const Career = () => {
   return (
@@ -19,7 +20,9 @@ const Career = () => {
         />
         <meta name="keywords" content="Engineering Careers" />
       </Helmet>
-      <PageTop PageName="Career" />
+      <CareerBanner/>
+      {/* <PageTop PageName="Career" /> */}
+    
       <div className="CareerContainer">
         <div className="careerIntroWrapper">
           {" "}

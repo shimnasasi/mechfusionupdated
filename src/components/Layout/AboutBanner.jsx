@@ -11,7 +11,7 @@ const AboutBanner = () => {
       <meta name="description" content="This is the home page description." />
     </Helmet> */}
       <div className="aboutimgwrapper">
-        <img src={about} alt="" className="aboutBannerImg" />
+        <img src={about} alt="about" className="aboutBannerImg" />
       </div>
       <div className="aboutBanner-wrapper">
         <span className="smallHeading">Mechfusion</span>

@@ -82,6 +82,88 @@
   width: 100%;
   color: var(--blue);
 }
+/* layout wrapper */
+.mf-layout {
+  display: flex;
+  gap: 30px;
+  padding: 40px 80px;
+}
+
+/* SIDEBAR CONTAINER */
+.mf-sidebar {
+  width: 280px;
+  padding: 20px;
+}
+
+/* SIDEBAR TITLE */
+.sidebar-title {
+  font-size: 18px;
+  color: #1e1e1e;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* ACTIVE SERVICE BOX */
+.sidebar-box-active {
+  background: #c1dc12;
+  padding: 15px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.sidebar-active-head {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.sidebar-active-list {
+  list-style: none;
+  margin-left: 15px;
+}
+
+.sidebar-active-list li {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* HEADINGS */
+.sidebar-head {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 15px 0 5px;
+  color: #1e1e1e;
+}
+
+/* GREEN LINE BELOW */
+.sidebar-line {
+  border: 0;
+  height: 2px;
+  background: #c1dc12;
+  margin-bottom: 10px;
+}
+
+/* Layout of sidebar + content */
+.mf-layout {
+  display: flex;
+  gap: 30px;
+}
+
+
+/* green line under headings */
+hr {
+  border: none;
+  border-top: 2px solid #a6d930;
+  margin: 8px 0;
+}
+
+/* RIGHT CONTENT */
+.mf-main-content {
+  flex: 1;
+}
 
 @media (max-width: 768px) {
   .imgmfpage {

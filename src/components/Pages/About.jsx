@@ -1,27 +1,29 @@
 import React from "react";
 import Layout from "../Layout/Layout";
-import PageTop from "../Layout/PageTop";
+// import PageTop from "../Layout/PageTop";
 // import AboutVisionMission from "../Layout/AboutVisionMission";
 import AboutIntro from "../Layout/AboutIntro";
 import AboutBanner from "../Layout/AboutBanner";
 import HomeContact from "../Layout/HomeContact";
 import { Helmet } from "react-helmet-async";
+import AboutBanner1 from "../Layout/AboutBanner1";
 
 const About = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Reverse Engineering Design & Cost Estimation Experts| Mechfusion</title>
+        <title>About Mechfusion | Engineering Design & Consulting Services</title>
          <meta property="og:title" content="Reverse Engineering Design & Cost Estimation Experts| Mechfusion" />
         <link rel="canonical" href={`${window.location.origin}/about`} />
         <meta
           name="description"
-          content="Offering reverse engineering design and cost estimation services to deliver accurate, efficient, and high-quality project outcomes."
+          content=" Mechfusion transforms ideas into accurate, manufacturable designs through precision engineering, innovative solutions, and professional consulting services."
         />
 
         <meta name="keywords" content="Reverse Engineering Design" />
       </Helmet>
-      <PageTop PageName="About us" />
+      {/* <PageTop PageName="About us" /> */}
+      <AboutBanner1/>
       <AboutBanner />
       <AboutIntro />
       <HomeContact />

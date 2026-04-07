@@ -8,129 +8,188 @@ export const serviceData = [
   {
     urlname: "mechanical-design",
     name: "Mechanical Design Services",
+    path: "/services/mechanical-design",
     heading:
       "Custom Mechanical Design Solutions Powered by Innovation and Expertise",
     img1: mechanical,
     id: 1,
     services: [
-      { service: "Jigs and Fixtures" },
-      { service: "Moulds" },
+      { service: "Jigs and Fixture Design" },
+      { service: "Mould Design" },
       { service: "Product Design" },
-      { service: "Gauges" },
+      { service: "Gauge Design" },
       { service: "Electrode Design" },
       { service: "Sheet metal" },
-      { service: "2D to 3D Conversion" },
+      { service: "2D to 3D Conversion Design" },
       { service: "Conceptual Design" },
       { service: "Legacy Data Migration" },
-      { service: "3D to 2D Detailing or Manufacturing Drawing" },
-      { service: "Reverse Engineering" },
-      { service: "Mechanism Designs" },
+      { service: "Manufacturing Drawings" },
+      { service: "Reverse Engineering Design" },
+      { service: "Mechanism Design" },
       { service: "Prototype Design" },
       { service: "Machining Stage drawings" },
       { service: "VAVE Design" },
       { service: "R&D Design" },
     ],
-    para: "Mechfusion gives mechanical design solutions which are clever and tailor made. The strength combines advanced engineering tools with deep domain knowledge to create bespoke mechanical systems and components that excel functionally but are efficient, durable, and sustainable The gap between the automotive, aerospace, industrial equipment, consumer products, and every other aspect meets the professionally skilled and knowledgeable engineers and designers. Right from the design and conceptualization stage, we become part of the journey of the manufacturing process to end-drawing. A client can convert his thoughts, beliefs, or ideas into reality through the customer's design.",
-    title: " Jigs and Fixture Design Services & 2D 3D Conversion",
+    para: "Mechfusion delivers professional Mechanical Design Services focused on real manufacturing outcomes. We help companies reduce design risk, improve manufacturability, and move from concept to production with confidence. Our engineers design mechanical systems and components that are efficient, durable, sustainable, and ready for the shop floor. \n\n From early ideas to final manufacturing drawings, our Mechanical Design Services support every stage of product development. Many engineering teams want clarity on whether a concept can become a production-ready solution. We convert ideas, sketches, and requirements into clear mechanical designs that meet functional needs and industry standards while aligning with real manufacturing conditions.",
+
+    title: " Mechanical Design Services | Precision Engineering ",
     description:
-      "Expert jigs and fixture design services with 2D to 3D conversion solutions for precise, efficient manufacturing across industries.",
-    keyword: "Jigs and Fixture design",
+      "Mechfusion offers custom mechanical design services including product design, jigs & fixtures, mould design, reverse engineering, and CAD solutions.",
+
+    button: " Discuss your mechanical design requirement",
     paralist: [
       {
         paraId: 1,
-        paraHead: "Comprehensive Mechanical Design Capability",
-        paraContent:
-          "We offer a superb assortment of specialized program designs under the conspicuous umbrella of mechanical design. Each service is catered for a specific phase of your journey through product or system development.",
+        paraHead: "End-to-End Mechanical Design Capability",
+        paraContent: "Our Mechanical Design Services cover the complete lifecycle of product and system development. We begin by understanding how a product will be used, manufactured, assembled, and maintained. This ensures that every design decision supports performance, cost control, and long-term reliability. \n\n As a trusted Mechanical Design Company, we work with global clients through flexible engagement models, including Mechanical Design Services USA, India, and Mechanical Design Outsourcing Services. Our Mechanical Engineering Design Services integrate smoothly with internal teams, suppliers, and manufacturing partners, ensuring clear documentation and predictable execution.",
+        subbutton: "Start your mechanical design project today",
       },
       {
         paraId: 2,
-        paraHead: "Jigs and Fixtures Design",
+        paraHead: "Mechanical Engineering Design Services Built for Manufacturing",
         paraContent:
-          "We design highly precise jigs and fixtures to enhance the manufacturing accuracy, shorten the cycle time, and improve the continuity of the production. Our solutions pertain both to manual and automated setups.",
+          "Our Mechanical Engineering Design Services are grounded in strong engineering fundamentals and hands-on manufacturing knowledge. We design components and assemblies with materials, tolerances, strength, and service life in mind. Production teams often need assurance that designs will be easy to machine, assemble, and inspect. We actively design for machining, fabrication, molding, and assembly to reduce rework and production delays. \n\n These services help improve product quality, shorten development cycles, and maintain engineering accuracy across revisions.",
+        // subbutton: "Discuss Your Manufacturing Design Needs",
+
       },
       {
         paraId: 3,
-        paraHead: "Mould Design",
+        paraHead: " Product Design and Development Services",
         paraContent:
-          "Our mould designs ensure optimized material flow, reduced cycle time, and defect-free part production. We also consider cooling, ejection, and parting lines as key parameters to ensure manufacturability and longevity.",
+          "Our Product Design and Development Services support companies from concept to production. We focus on converting ideas into practical, manufacturable products while balancing aesthetics, ergonomics, performance, and cost. Through our engineering approach, products are built to perform reliably and scale efficiently for production. \n\n  Teams developing new products or improving existing designs rely on our Mechanical Engineering Design Services to reduce technical risk and support faster decision-making.",
+        // subbutton: "Start Product Design and Development Project",
         // link: "/services/mould-design"
       },
       {
         paraId: 4,
-        paraHead: "Product Design",
+        paraHead: "CAD Mechanical Design Services",
 
         paraContent:
-          "From concept to final production, we help convert your ideas into marketable solutions. We will ensure that aesthetics, ergonomics, performance, and manufacturing are covered so that your product is best in form and function.",
+          "We provide advanced CAD Mechanical Design Services using modern design platforms to create accurate 2D and 3D models. Our engineers build clean, structured CAD data that supports manufacturing, inspection, and future design updates. These services also include 2D to 3D conversion, enabling teams to modernize legacy drawings and move toward digital manufacturing workflows. \n\n Clear CAD models improve collaboration between design, manufacturing, and suppliers.",
+        subbutton: "Get CAD Mechanical Design Services"
+
       },
       {
         paraId: 5,
-        paraHead: "Gauges Design",
+        paraHead: " 3D Mechanical Design Services",
 
         paraContent:
-          "We create high-accuracy gauges for quality control and inspection test purposes. The gauges ensure conformance to tight tolerances and industry standards.",
+          "Our 3D Mechanical Design Services deliver clear visualization of components and assemblies before production begins. Accurate 3D models support effective design reviews, supplier discussions, and internal approvals. Within our Mechanical Engineering Design Services, early visualization helps identify potential issues and reduce costly changes during manufacturing.",
+        // subbutton: " Request 3D Mechanical Design Services",
+
       },
       {
         paraId: 6,
-        paraHead: "Design Electrode",
+        paraHead: "Tooling, Quality, and Manufacturing Support",
 
         paraContent:
-          "We provide designed electrodes for EDM applications on high quality basis, assuring the customer a precision and repeatability for complex machining operations.",
+          "We design jigs and fixtures that improve manufacturing accuracy and productivity across manual and automated setups. Our mould design work focuses on optimized material flow, reduced cycle time, and consistent part quality. We also develop high-accuracy gauges for inspection and quality control, ensuring components meet tight tolerances and industry standards. \n\n For complex machining needs, we provide EDM electrode design with a focus on repeatability and dimensional accuracy. Our conceptual design support helps teams visualize ideas early using sketches and 3D models, reducing technical risk before detailed engineering begins.",
+        // subbutton: " Get Tooling and Manufacturing Design Support",
+
       },
 
       {
         paraId: 7,
-        paraHead: "2D to 3D conversion",
+        paraHead: "Legacy Data, Drawings, and Reverse Engineering",
 
         paraContent:
-          "In the advanced CAD tools, we can convert legacy 2D drawings into smart, parametric 3D characters. It helps in the update of your documentation and further open doors to digital manufacturing.",
+          "We support legacy CAD data migration to modern platforms while preserving design intent and accuracy. Our Manufacturing Drawing Services convert 3D models into clear, production-ready 2D drawings with correct dimensions, tolerances, materials, and notes for machining and inspection \n\n Our reverse engineering capability helps recreate existing components and assemblies by capturing physical measurements and converting them into accurate digital models for redesign, replacement, or documentation recovery.",
+        subbutton: " Request Legacy Data and Reverse Engineering Services",
+
       },
       {
         paraId: 8,
-        paraHead: "Conceptual Design",
+        paraHead: "Our Engineering Services",
+        paraContent: [
+          { type: "text", text: "Mechfusion offers a complete range of " },
+          {
+            type: "link",
+            text: "engineering services",
+            to: "/services/engineering-documentation",
+          },
+          { type: "text", text: " to support design, development, and manufacturing needs: \n\n * Mechanical Design Services \n\n * Mechanical CAD / CAM Services \n\n * " },
+          {
+            type: "link",
+            text: "CNC Programming Services \n\n ",
+            to: "/services/cnc-programming",
+          },
+          { type: "text", text: "* " },
+          {
+            type: "link",
+            text: "Engineering Documentation Services \n\n ",
+            to: "/engineering-documentation",
+          },
+          { type: "text", text: "* Manufacturing Drawing Services\n\n * Mold Flow Analysis Services \n\n * Part and Fixture Costing Services \n\n * Prototyping and Production Support Services " },
+        ]
 
-        paraContent:
-          "Help clients visualize mechanical concepts at an early stage via detailed concept sketches and/or 3D models. These designs form the foundation for engineering validation and product development.",
-        linkText: "engineering validation and product development",
-        linkTo: "/services/engineering-documentation",
+        // linkText: "engineering services",
+        // linkTo: "/services",
+        // subbutton: " Explore our full engineering services",
+
+
+
+        //   linkText: "CNC Programming Services",
+        // linkTo: "/services/cnc-programming",
+        // subbutton: " Explore our full engineering services",
       },
       {
         paraId: 9,
-        paraHead: "Legacy Data Migration",
-
-        paraContent:
-          "Migrating your old CAD data to the new platforms ensures that your old data is intact and at the same time compatible with today's design and manufacturing tools.",
+        paraHead: "Mechanical Design Services for USA and Global Clients",
+        paraContent: [
+          { type: "text", text: "As a global Mechanical Design Company," },
+          {
+            type: "link",
+            text: " Mechfusion ",
+            to: "/",
+          },
+          { type: "text", text: "supports engineering teams worldwide. Our Mechanical Design Services USA follow international standards and structured documentation practices, while Mechanical Design Services India delivery ensures efficiency and scalability. Many organizations rely on our Mechanical Design Outsourcing Services to extend engineering capacity without compromising quality or control. \n\nYes, we regularly support USA-based teams remotely with consistent communication, clear deliverables, and strong engineering accountability." },
+        ]
+        // subbutton: " Speak with our global delivery team"
       },
       {
         paraId: 10,
-        paraHead: "3D to 2D Detailing / Manufacturing Drawings",
+        paraHead: " A Trusted Mechanical Engineering Design Services Partner",
 
         paraContent:
-          "Our reverse engineering services help you recreate the components and/or assemblies by taking all physical measurements and converting it into accurate digital models.",
+          "Our Mechanical Engineering Design Services are driven by experience, precision, and a deep understanding of manufacturing realities. We design with real production conditions in mind, ensuring reliability, repeatability, and long-term performance. Clients trust our Mechanical Design Services because we focus on clarity, accountability, and engineering accuracy at every stage.",
+        // subbutton: " Connect with our mechanical design experts",
+
       },
       {
         paraId: 11,
-        paraHead: "Reverse Engineering",
-
+        paraHead: "Let’s Design the Future Together",
         paraContent:
-          "Our reverse engineering services help you recreate the components and/or assemblies by taking all physical measurements and converting it into accurate digital models.",
-      },
+          "Partner with Mechfusion for dependable and innovative Mechanical Design Services that support your product goals from concept to manufacturing. Whether you need Product Design and Development Services, CAD Mechanical Design Services, 3D Mechanical Design Services, Manufacturing Drawing Services, or Mechanical Design Outsourcing Services, our team is ready to support your project.",
+        subbutton: "Get a technical response from a mechanical engineer",
 
-      {
-        paraId: 12,
-        //  paraHead:"",
+      }
 
-        paraContent:
-          "Let’s Design the Future Together. Partner with Mechfusion for reliable, innovative mechanical design solutions. Contact us to discuss your project today.",
+      // {
+      //   paraId: 11,
+      //   paraHead: "Reverse Engineering",
 
-        linkText: "Contact us",
-        linkTo: "/contact",
-      },
+      //   paraContent:
+      //     "Our reverse engineering services help you recreate the components and/or assemblies by taking all physical measurements and converting it into accurate digital models.",
+      // },
+
+      // {
+      //   paraId: 12,
+      //   //  paraHead:"",
+
+      //   paraContent:
+      //     "Let’s Design the Future Together. Partner with Mechfusion for reliable, innovative mechanical design solutions. Contact us to discuss your project today.",
+
+      //   linkText: "Contact us",
+      //   linkTo: "/contact",
+      // },
     ],
   },
 
   {
     urlname: "cnc-programming",
     name: "CNC Programming Services",
+    path: "/services/cnc-programming",
     heading: "Expert CNC Programming Solutions for Advanced Manufacturing",
     img1: cnc,
     id: 2,
@@ -142,73 +201,139 @@ export const serviceData = [
       { service: "CNC Process Planning" },
       { service: "CNC Programming Optimization" },
     ],
-    para: "Mechfusion is ingenuity endowed for CNC programming, which is so precise and efficient that it can actually cover different fields and industry needs. The most experienced up to date programmers work with advanced software tools for optimized program creation ensuring excellent machining, maximization of production, and reduction of waste. We design solutions very well for milling, turning, or multi-axis machining-increased operational performance and exceptional accuracy. Our work goes beyond just programming since we go beyond getting all client specifications before delivering programming services that are both reliable and cost-effective with maximum results without compromising quality.",
-    title: "CNC Programming Services | Mold & Gauge Design Experts",
+    para: "Mechfusion delivers professional CNC Programming Services designed for real manufacturing environments. We help manufacturers improve machining accuracy, reduce cycle time, and achieve stable production results. Our programmers work closely with shop-floor requirements to ensure every program performs reliably on machines, not just in simulation. \n\n Our CNC Programming Services support milling, turning, and multi-axis machining across automotive, aerospace, industrial equipment, and general manufacturing sectors. From prototypes to batch production, we convert part designs into efficient machine instructions that balance speed, precision, and tool life. Manufacturers often want clarity on whether outsourced programming can meet internal standards. We study machine configuration, tooling, materials, and tolerances before delivering programs that run safely and consistently.",
+    title: "CNC Programming Services for Milling & Multi-Axis Machining",
     description:
-      "We provide CNC programming services with mold and gauge design, CAM support, and machining process planning for accurate and fast results.",
+      "Mechfusion provides professional CNC programming services for milling, turning, and multi-axis machining to improve precision, speed, and production efficiency.",
     keyword: "CNC Programming",
+    button: "Submit your machining requirement",
     paralist: [
       {
         paraId: 1,
-        paraHead: "Benefits of CNC Programming",
+        paraHead: "Programming Approach Aligned With Manufacturing Needs",
         paraContent:
-          "There are various benefits that CNC programming provides to improve manufacturing processes. Now, the CNC programming services from Mechfusion will allow a manufacturer to maximize value from his investments, maintain a schedule of production, and be competitive in an aggressive market. Mechfusion values in CNC programming give assurance that the manufacturing processes will achieve levels of efficiency and accuracy, thus pushing the business to forward",
-        linkText: "Mechfusion",
-        linkTo: "/",
+          "Our CNC Programming Services follow a manufacturing-first approach. We review CAD models, drawings, and machining intent to ensure each program reflects real production constraints. This approach reduces shop-floor adjustments and helps operators run jobs with confidence. \n\n As an experienced CNC Programming Company, we support flexible engagement models, including CNC Programming Services USA and offshore delivery for cost efficiency. Many manufacturers outsource programming to manage workload peaks and skill shortages without compromising quality. Our CNC machining programming support integrates smoothly with production teams, tooling suppliers, and quality departments.",
+        // linkText: "Mechfusion",
+        // linkTo: "/",
+        subbutton: " Request CNC programming support",
       },
       {
         paraId: 2,
-        paraHead: "Speed & Efficiency",
-        paraContent:
-          "CNC machines can produce parts much faster than traditional manual methods. The automation of complex machining tasks allows for rapid production cycles, significantly increasing throughput and reducing lead times.",
+        paraHead: "CNC Programming Company With Practical Machining Expertise",
+
+        paraContent: [
+          { type: "text", text: "As a trusted CNC Programming Company," },
+          {
+            type: "link",
+            text: " Mechfusion ",
+            to: "/",
+          },
+          { type: "text", text: "focuses on machining knowledge, not just CAM output. Our programmers understand cutting strategies, tool engagement, machine kinematics, and fixture limitations. This experience allows us to deliver CNC Programming Services that improve surface finish, reduce tool wear, and maintain dimensional stability. \n\n Production managers value programs that reduce errors and setup time. Our programming practices emphasize safe tool paths, optimized sequencing, and clear setup logic that supports efficient shop-floor execution." },
+
+        ]
+        // subbutton: " Learn about our CNC programming expertise",
       },
       {
         paraId: 3,
-        paraHead: "Complex Part Production",
+        paraHead: "Milling, Turning, and Multi-Axis Capability",
         paraContent:
-          "While some workpiece features may be either too difficult or impossible to be produced manually, CNC programming provides a method to produce those intricate and complex part geometries. Quite often, such capabilities are strengthened even further by the various advanced features offered, such as 2-5 axis milling; multi-function machines; and high-speed milling.",
+          "Our CNC milling and turning programming capability supports 2-axis, 3-axis, 4-axis, and 5-axis machining. We program milling centers, lathes, mill-turn machines, and multi-function machining centers with a strong focus on accuracy and repeatability.\n\n These CNC Programming Services support both low-volume and high-volume production by improving machine utilization and ensuring consistent results across batches.",
+        // subbutton: " Get CNC programming for milling & turning",
       },
       {
         paraId: 4,
-        paraHead: "Enhanced Productivity",
+        paraHead: "CNC Manufacturing Programming Services for Production Stability",
         paraContent:
-          "Automation can solve programming and machining tasks in a way that reduces downtime and improves productivity. Graphically driven programming and machine tool simulation further streamline operations and improve productivity.",
+          "Our CNC manufacturing programming support helps manufacturers maintain stable production over long runs. We focus on machining strategies that minimize variation and support predictable output while meeting delivery schedules. \n\n Through careful sequencing and reduced non-cutting time, our CNC Programming Services help improve productivity without increasing machining risk.",
+        subbutton: " Request CNC manufacturing programming support",
+
       },
       {
         paraId: 5,
-        paraHead: "Skill Shortage Mitigation",
+        paraHead: "Precision, Accuracy, and Consistency",
         paraContent:
-          "The more advanced the CNC technology, the more complex is its programming, thereby creating a shortfall of skilled personnel. By outsourcing or contracting CNC programming services, the challenge can be handled while allowing all the machines used maximally possible.",
+          "Accuracy and repeatability are critical in CNC machining. Our CNC Programming Services maintain tight tolerances and consistent part quality across production cycles. We consider material behavior, cutting forces, and thermal effects to maintain dimensional control.\n\n Industries with strict quality requirements rely on our CNC programming expertise because stable programs reduce inspection rejections and improve overall production confidence.",
+        // subbutton: " Ensure precision with our CNC programming services",
       },
       {
         paraId: 6,
-        paraHead: "Savings on costs",
+        paraHead: "Handling Complex and High-Detail Components",
         paraContent:
-          "CNC programming minimizes the labor costs and creates waste, which is more or less cost-effective in bringing overall production cost down and making manufacturing economically viable. ",
+          "Complex geometries require advanced programming strategies. Our CNC Programming Services support intricate features that are difficult to machine manually. Multi-axis programming allows us to manage undercuts, deep cavities, and complex contours with high accuracy.\n\n High-speed machining and simultaneous multi-axis movements help manufacturers expand the capabilities of existing machines.",
+        // subbutton: " Get CNC programming for complex parts",
       },
       {
         paraId: 7,
-        paraHead: "Precision and Accuracy",
+        paraHead: "CNC Programming Services for USA and Global Manufacturers",
         paraContent:
-          "With CNC programming, parts are produced with very high precision and thus consistency in manufacture. This is one of the essential types of industries where close tolerances and high-quality standards are most needed, such as aerospace, medical, and electronics.",
+          "Our CNC Programming Services support manufacturers in the USA and global markets through structured documentation, clear revision control, and predictable delivery timelines. We regularly work with remote production teams and deliver programs that run reliably on-site with minimal adjustment. \n\n As a global CNC Programming Company, Mechfusion helps manufacturers scale operations efficiently while maintaining machining accuracy and accountability.",
+        subbutton: "Speak with our CNC programming team",
+
       },
       {
         paraId: 8,
-        paraHead: "Continuousness",
+        paraHead: "Versatility Across Machines and Industries",
         paraContent:
-          "CNC machines can repetitively produce identical, low-variations parts that keep consistency within their long runs. This sort of reliability is paramount to the quality of the product and the specifications indicated by the customer. ",
+          "Our CNC Programming Services support a wide range of machines and applications, from simple prismatic parts to complex aerospace components. This versatility allows manufacturers to rely on one programming partner for multiple production needs. \n\n Whether the requirement involves CNC programming for manufacturing, milling and turning operations, or complex multi-axis work, our team adapts strategies to suit each application.",
+
+        // subbutton: " Explore our versatile CNC programming solutions",
       },
       {
         paraId: 9,
-        paraHead: "Versatility",
+        paraHead: "A Reliable CNC Programming Company for Long-Term Support",
         paraContent:
-          "All CNC systems are pretty good at almost every machining act, such as turning or CMM inspection, turbomachinery milling, and feature-based machining. That makes the CNC machine actually quite versatile, which is among the most popular and extensive endeavors for potential applications in various industries.",
+          "Our reputation as a dependable CNC Programming Company comes from consistent results, practical machining knowledge, and clear communication. We deliver programs that operators trust and production teams rely on. \n\n ",
+        // subbutton: " Build a long-term CNC programming partnership",
+      },
+      {
+        paraId: 10,
+        paraHead: "Our Engineering Services",
+        paraContent: [
+          { type: "text", text: "Mechfusion provides a full range of" },
+          {
+            type: "link",
+            text: " engineering services ",
+            to: "/services",
+          },
+          { type: "text", text: " that support product design, development, and manufacturing requirements across industries. \n\n" },
+
+          { type: "text", text: "* " }, {
+            type: "link",
+            text: " Mechanical Design Services \n\n",
+            to: "/services/mechanical-design",
+          },
+
+          { type: "text", text: "  * Mechanical CAD / CAM Services \n\n *  CNC Programming Services \n\n" },
+          { type: "text", text: "* " },
+          {
+            type: "link",
+            text: " Engineering Documentation Services\n\n",
+            to: "/services/engineering-documentation",
+          },
+          { type: "text", text: " * Manufacturing Drawing Services\n\n * Mold Flow Analysis Services \n\n * Part and Fixture Costing Services \n\n * Prototyping and Production Support Services" },
+
+
+        ]
+
+
+
+
+        // subbutton: " Explore our full engineering services",
+      },
+      {
+        paraId: 11,
+        paraHead: "Let’s Strengthen Your CNC Machining Process",
+        paraContent:
+          "Partner with Mechfusion for dependable CNC Programming Services that improve machining accuracy, productivity, and cost control. Whether you need CNC manufacturing programming support or want to outsource CNC programming, our team is ready to help.",
+        subbutton: "Get a technical response from a CNC programming engineer",
+
       },
     ],
   },
   {
     urlname: "engineering-documentation",
     name: "Engineering Documentation",
+    path: "/services/engineering-documentation",
     heading: "Engineering Documentation",
     id: 3,
     img1: documentation,
@@ -224,67 +349,149 @@ export const serviceData = [
       { service: "PPT Presentations" },
       { service: "First Article Inspection Report (FAIR)" },
     ],
-    para: "Mechfusion offers comprehensive engineering documentation services designed to ensure accuracy, consistency, and compliance with industry standards. Our experienced team specializes in creating, reviewing, and managing a wide range of technical documents, including engineering drawings, specifications etc. By leveraging advanced tools and processes, we deliver documentation that supports clear communication, seamless project workflows, and efficient lifecycle management. Tailored to meet the unique needs of each client, our services provide reliable and well-organized records that enhance operational efficiency and support long-term project success.",
-    title: "Engineering Documentation & Electrode Design | Mechfusion",
+    para: "Mechfusion delivers professional Engineering Documentation Services that help organizations maintain accuracy, consistency, and compliance across the engineering lifecycle. We support engineering teams with clear, structured documentation that improves communication, reduces errors, and supports long-term project success. \n\n Our Engineering Documentation Services support manufacturing, automotive, aerospace, industrial equipment, and product engineering projects. Many teams want documentation that production, quality, and compliance teams can trust. We create reliable technical records that align with real engineering workflows and industry standards.",
+    title: "Engineering Documentation Services | Accuracy & Compliance",
     description:
-      "Professional engineering documentation and electrode design services with 2D to 3D CAD conversion and DFM for accurate, efficient results.",
+      "Get reliable engineering documentation services from Mechfusion to ensure precise drawings, clear communication, and compliant project records.",
     keyword: "Engineering Documentation",
+    button: "Submit your documentation requirement",
     paralist: [
       {
         paraId: 1,
-        paraHead: "Engineering Documentation - Our Expertise",
-        paraContent:
-          "With the wealth of experience at Mechfusion , our experts in engineering documentation include technical writing, review, and project management of a variety of documents. These include engineering drawings, specifications, manuals, reports, et al. Each document produced is characterized by precision and detail based on the very idea of quality and excellence. To that end, our professionals retain a vast knowledge of engineering principles and practices and, thus, can take into account complex technical data and convert it into a lucid document.",
-        linkText: "Mechfusion",
-        linkTo: "/",
+        paraHead: "Engineering Documentation Expertise Built on Experience",
+        paraContent: [
+          { type: "text", text: "Our Engineering Documentation Services are handled by experienced engineers and technical writers who understand engineering principles, standards, and project constraints. We prepare engineering drawings, specifications, manuals, reports, and technical records with strong attention to accuracy and clarity. \n\n As a trusted Engineering Documentation Company," },
+          {
+            type: "link",
+            text: " Mechfusion ",
+            to: "/",
+          },
+          { type: "text", text: "converts complex technical information into structured documents that teams can use confidently during design reviews, manufacturing, audits, and certifications." },
+        ]
+
+
+        // subbutton: "  Discuss your documentation workflow with our team",
+        // buttonlink: "/contact",
       },
       {
         paraId: 2,
-        paraHead: "Customized Healthcare Appropriate for Every Need",
+        paraHead: "Engineering Documentation Based on Project Scope",
         paraContent:
-          "We understand  that every project has different requirements; hence, the documentation requirements will differ as well. Mechfusion doesn't believe in a one size fits all approach for engineering documentation we provide customized and specific solutions for the requirements of each client. Whether one is a small startup or a big corporation, we work along with you closely to understand your objectives, workflows, and regulatory requirements. Such an approach helps ensure that the documentation we provide aligns seamlessly with your project goals.",
+          "Every project has unique documentation needs. Our Engineering Documentation Services adapt to different industries, workflows, and regulatory requirements. We work closely with clients to understand approval processes, documentation formats, and compliance expectations before preparing documents. \n\n As an experienced Engineering Documentation Company, we support startups, OEMs, and large enterprises with customized documentation solutions, including Engineering Drawing Documentation Services, Technical Documentation Services, and Manufacturing Documentation Services.",
+        subbutton: " Get tailored engineering documentation solutions",
       },
       {
         paraId: 3,
-        paraHead: "Latest  Tools and Technologies",
+        paraHead: "Advanced Tools and Document Management Practices",
         paraContent:
-          "We bring the latest tools and technologies into our modern day to improve the quality and efficiency of our documentation services. The entire team has state-of-the-art software that could help them create high-quality and fast production engineering documents. From CAD software for detailed drawings to document management systems streamlining reviews and approvals, we've been using the latest technology to make all of our documentation not only accurate but also extremely manageable and shareable. This consistency of technology helps us maintain a quality level in all documentation while bringing smooth collaboration among members of a project and with stakeholders.",
+          "We use modern engineering and document management tools to deliver Engineering Documentation Services efficiently. Our processes support version control, structured reviews, and secure collaboration across teams. \n\n Clients often want documentation that remains easy to update and manage as designs evolve. Our approach ensures records stay accurate, traceable, and aligned with engineering changes.",
+        // subbutton: " Explore our advanced documentation tools",
+
       },
       {
         paraId: 4,
-        paraHead: "The Essence of Accuracy and Compliance",
+        paraHead: "Accuracy, Compliance, and Industry Standards",
         paraContent:
-          "Accuracy in the engineering world comes first. Inaccurate documentation leads to costing, delays, and safety issues. Our very rigorous checking process ensures that completely every document has been reviewed carefully for accuracy and compliance with industry standards. Our staff keeps pace with emerging regulations and best practices in engineering documentation, allowing us to deliver services that meet or exceed required standards. So your projects are sure to comply and stand for success.",
+          "Accuracy is critical in engineering documentation. Errors can lead to delays, rework, or compliance issues. Our Engineering Documentation Services follow strict checking procedures to ensure correctness and alignment with applicable standards. \n\n We support Engineering Compliance Documentation by aligning documents with customer requirements, internal quality systems, and regulatory expectations. Many organizations rely on our Engineering Documentation Company to support audits and certifications without disrupting engineering operations.",
+        // subbutton: " Ensure documentation accuracy and compliance",
       },
       {
         paraId: 5,
-        paraHead: "Communication and Collaboration Enhancement",
+        paraHead: "Clear Communication Across Engineering Teams",
         paraContent:
-          "Communication is the key to any engineering project. We maintain documentation services to impart positive communication among engineers, project managers, clients, and regulatory authorities. The clear and concise presentation of information permits an enhanced understanding, with a reduction in ambiguity using organized documentation that acts as a The well-established and recognized document in a complex project that involves so many teams would avoid miscommunication and benefit from quite some collaboration.",
+          "Our Engineering Documentation Services improve communication between design, manufacturing, quality, and management teams. Clear and consistent documentation reduces ambiguity and helps teams work efficiently. \n\n Through Technical Writing Services for Engineering, we present information in a clear, usable format that production teams can follow without confusion.",
+        subbutton: " Improve team communication with clear documentation",
       },
       {
         paraId: 6,
-        paraHead: "Supporting Lifecycle Management",
+        paraHead: "Documentation That Supports the Full Engineering Lifecycle",
         paraContent:
-          "Engineering projects typically span several phases beginning from an initial design phase and extending into final implementation and beyond. Documentation services are life-cycle management-provisioned through accurate records at every stage of the project, critical information at call and at point of value, less risk of loss from immaterial documentation, and effectively paving the way for increased project continuity. This organized documentation approach further enables auditing and review of systems in order to retain compliance throughout the lifecycle of a particular project.",
-        linkText: "initial design ",
+          "Engineering projects evolve over time, and documentation must evolve with them. Our Engineering Documentation Services support early design, production, maintenance, and long-term reference needs. \n\n As a reliable Engineering Documentation Company, we help organizations maintain continuity, reduce information loss, and preserve engineering knowledge throughout the project lifecycle.",
+        // linkText: "initial design ",
         // linkTo: "/",
-        linkTo: "/services/mechanical-design",
+        // linkTo: "/services/mechanical-design",
+        // subbutton: " Get documentation for every project stage",
       },
       {
         paraId: 7,
-        paraHead: "Commitment to Operational Efficiency",
+        paraHead: "Operational Efficiency Through Structured Documentation",
         paraContent:
-          "At Mechfusion, well-organized documentation is the key to enhancing operational efficiency. The services we offer are intended to smoothen workflow, activate redundancy, and cut back the time consumed on managing documents. Indeed, by delegating all your documentation needs to us, one can center its capabilities on core engineering activities while document-related intricates fall under our purview; all of which will indirectly save some time and resources and add to his project success.",
-        linkText: "service",
+          "Well-managed documentation improves operational efficiency. Our Engineering Documentation Services reduce time spent searching, updating, and validating technical records. Many organizations choose Engineering Documentation Outsourcing to manage documentation workload while focusing on core engineering activities. \n\n By working with an experienced Engineering Documentation Company, teams gain predictable delivery, consistent formatting, and dependable documentation quality.",
+        // linkText: "service",
 
-        linkTo: "/services",
+        // linkTo: "/services",
+        // subbutton: " Optimize your documentation processes",
+      },
+      {
+        paraId: 8,
+        paraHead: "Engineering Documentation Services for USA and Global Clients",
+        paraContent:
+          "Our Engineering Documentation Services support USA-based and global organizations through standardized practices and clear workflows. Many clients choose Engineering Documentation Services USA for structured compliance and clarity, while our global delivery model ensures scalability and efficiency. \n\n Yes, we regularly support distributed engineering teams with documentation that aligns with international standards and internal processes.",
+        subbutton: "Speak with our documentation specialists",
+
+        // linkTo: "/services",
+      },
+      {
+        paraId: 9,
+        paraHead: "Engineering Drawing and Manufacturing Documentation",
+        paraContent:
+          "Our Engineering Documentation Services include drawings, BOMs, specifications, and manufacturing records. We deliver Manufacturing Documentation Services that support machining, assembly, inspection, and quality control. \n\n Clear documentation reduces production errors and improves shop-floor efficiency by communicating design intent accurately.",
+        // linkText: "service",
+
+        // linkTo: "/services",
+        // subbutton: " Get engineering drawing & manufacturing documentation",
+      },
+      {
+        paraId: 10,
+        paraHead: "Our Engineering Services",
+       paraContent: [
+          { type: "text", text: "Mechfusion provides a full range of" },
+          {
+            type: "link",
+            text: " engineering services ",
+            to: "/services",
+          },
+          { type: "text", text: " that support product design, development, and manufacturing requirements across industries. \n\n" },
+
+          { type: "text", text: "* " }, {
+            type: "link",
+            text: " Mechanical Design Services \n\n",
+            to: "/services/mechanical-design",
+          },
+
+          { type: "text", text: "  * Mechanical CAD / CAM Services \n\n " },
+          { type: "text", text: "* " },
+          {
+            type: "link",
+            text: "  CNC Programming Services\n\n",
+            to: "/services/cnc-programming",
+          },
+          { type: "text", text: "* Engineering Documentation Services \n\n * Manufacturing Drawing Services\n\n * Mold Flow Analysis Services \n\n * Part and Fixture Costing Services \n\n * Prototyping and Production Support Services" },
+
+
+        ]
+      
+      
+      
+       
+        // subbutton: " Explore our full engineering services",
+      },
+      {
+        paraId: 11,
+        paraHead: "Let’s Build Reliable Engineering Documentation",
+        paraContent:
+          "Partner with Mechfusion for dependable Engineering Documentation Services that improve accuracy, compliance, and project efficiency. Whether you need documentation for design, manufacturing, or compliance, our team is ready to support your requirements.",
+        // linkText: "service",
+
+        // linkTo: "/services",
+        subbutton: "Get a technical response from an engineering documentation specialist",
       },
     ],
   },
   {
     urlname: "other-services",
     name: "Other-Services",
+    path: "/services/other-services",
     heading: "Other Services",
     id: 4,
     img1: other,
@@ -294,74 +501,130 @@ export const serviceData = [
       { service: "Fixture Costing" },
       { service: "Prototype Manufacturing Support" },
     ],
-    para: "Mechfusion your premier provider of Engineering services tailored to meet your design and manufacturing needs. With years of expertise in the industry, we pride ourselves on delivering innovative solutions that streamline your production processes and bring your ideas to life with precision and efficiency. Our dedicated team of skilled professionals utilizes cutting edge technology and software to deliver high quality designs, prototyping, and manufacturing services that exceed expectations. We are committed to provide personalized attention and customized solutions to help you achieve your goals. We deliver professional services including full range of Mechanical CAD/CAM services, Engineering documentation, Costing, etc",
-    title: "Mold Flow Analysis & Jigs and Fixture Design Services",
-    description: "Mold Flow Analysis and Jigs & Fixture Design services to enhance product quality, reduce defects, and improve manufacturing performance",
+    para: "Mechfusion delivers professional engineering services that support design, development, and manufacturing requirements across industries. We work with companies that need accurate, production-ready engineering support to improve efficiency, control cost, and reduce technical risk. Our services are structured, practical, and aligned with real manufacturing needs. \n\n With years of industry experience, we support projects from early design stages through validation and production support. Our team uses modern engineering tools, proven workflows, and clear documentation practices to deliver consistent and reliable results.",
+    title: "Engineering Support Services | CAD/CAM, Costing &Prototyping",
+    description: "Mechfusion offers comprehensive engineering services including CAD/CAM, mold flow analysis, prototyping, costing, and engineering documentation.",
     keyword: "Mold Flow Analysis",
+    button: "Submit your engineering requirement",
     paralist: [
       {
         paraId: 1,
-        paraHead: "All-encompassing Engineering Solutions",
-        paraContent:
-          "Mechfusion intends to provide very broad engineering services because of the complexity of the engineering landscape and all its applications on varied needs of clients. Excellence extends well within the entire gamut of services that we offer, ranging from Mechanical CAD/CAM to engineering documentation, costing, and very specialized analyses such as mold flow analysis and part costing. Our clients are thereby empowered to approach their projects confidently, knowing they have a reliable partner on board at every stage of the process.",
-        linkText: "engineering documentation",
+        paraHead: "All-Encompassing Engineering Solutions",
 
-        linkTo: "/services/engineering-documentation",
-        wordToBold: "engineering services",
+         paraContent: [
+          { type: "text", text: "Engineering projects today involve multiple disciplines and dependencies. Mechfusion provides a broad range of engineering services to address this complexity in a structured way. Our capabilities span mechanical CAD/CAM " },
+          {
+            type: "link",
+            text: " engineering documentation ",
+            to: "/services/engineering-documentation",
+          },
+          { type: "text", text: "costing, prototyping, and specialized analysis such as mold flow and part costing. \n\n By offering these services under one roof, we help clients reduce coordination gaps, avoid rework, and maintain consistency across the product lifecycle. This integrated approach allows engineering teams to move forward with confidence, knowing they have a dependable partner at every stage." },
+        ]
+       
+        // wordToBold: "engineering services",
+        // subbutton: "Discuss your project with our engineering team"
+
       },
       {
         paraId: 2,
-        paraHead: "Expert Team and Cutting Edge Technology",
+        paraHead: "Experienced Team and Advanced Engineering Technology",
         paraContent:
-          "Our whole team of highly competent and committed professionals is our strength. Everyone brings in years of varied experience coupled with engineering passion and always on toes updating their knowledge. With sophisticated instruments and advanced software, we endeavor to provide quality design, prototyping, and manufacture services that go beyond everyone's expectations. This includes newness that will continue keeping our customers abreast with all the developments in the engineering practice, thus modifying their production methods and enhancing the quality of the products.",
+          "Our engineering team is made up of skilled professionals with hands-on industry experience. Each engineer brings strong fundamentals, practical manufacturing knowledge, and a commitment to continuous improvement. We actively stay updated with evolving engineering practices and tools. We use advanced CAD, CAM, simulation, and analysis software to deliver accurate designs, efficient machining support, and reliable documentation. This combination of expertise and technology enables us to support complex engineering requirements while maintaining quality and consistency.",
+        subbutton: " Learn about our engineering expertise",
       },
       {
         paraId: 3,
         paraHead: "Mechanical CAD/CAM Services",
         paraContent:
-          "One of our major service lines is Mechanical CAD/CAM. Employing sophisticated computer-aided design and manufacture tools, we develop very detailed, accurate, and very reasonable models that define all engineering activities. Our CAD services enable the design iteration and modification efficiencies necessary to meet the changing project needs. By incorporating CAD with CAM, we link design and production, hence minimizing deviations and maximizing overall efficiencies.",
-        linkText: "Mechanical CAD/CAM",
+          "Mechanical CAD / CAM is a core part of our engineering services. We develop accurate 2D and 3D models that support design development, machining, and inspection. Our CAD services help teams iterate designs efficiently and adapt to changing project requirements. By integrating CAD with CAM workflows, we ensure a smooth transition from design to manufacturing. This reduces deviations, improves machining accuracy, and enhances overall production efficiency.",
+        // linkText: "Mechanical CAD/CAM",
 
-        linkTo: "/services/mechanical-design",
+        // linkTo: "/services/mechanical-design",
+        // subbutton: " Get mechanical CAD/CAM support",
       },
       {
         paraId: 4,
-        paraHead: "Mold Flow Analysis",
+        paraHead: "Mold Flow Analysis Services",
         paraContent:
-          "Mold flow analysis is one significant service rendered by us in the area of injection molding. The simulation model is incorporated with the analysis of molten materials filling into molds using a forecast of possible problems such as air traps, uneven cooling, among other defects. Predicting defects like these before the production happens reduces time and resources necessary for mold correction as well as assure final product quality. Our expertise in mold flow analysis is critical for any client wanting to reduce their manufacturing process and improve their product performances.",
+          "We provide mold flow analysis services to support injection molding and plastic component development. Using simulation tools, we analyze material flow, cooling behavior, and potential defects such as air traps, weld lines, and uneven shrinkage. Identifying these issues early helps reduce mold rework, shorten development cycles, and improve final part quality. Our mold flow analysis supports stable and repeatable molding processes.",
+        // subbutton: " Get mold flow analysis support",
+
       },
       {
         paraId: 5,
-        paraHead: "Part and Fixture Costing",
+        paraHead: "Part and Fixture Costing Services",
         paraContent:
-          "Understanding how design changes affect costs is what determines the success of every engineering project. Our part costing and fixture costing consultancy services provide cost breakdowns by which a client can project the feasibility of a design. All significant facets such as material selection, manufacturing method, and labor cost are part of the evaluation process to arrive at an accurate estimate. All of this makes it clear where a business stands budget-wise and provides opportunities for possible savings while ensuring projects remain viable economically without sacrificing quality.",
+          "Cost awareness plays a key role in engineering success. Our part and fixture costing services provide clear cost breakdowns based on material selection, manufacturing methods, tooling, and labor. These insights help clients evaluate design feasibility, plan budgets accurately, and identify opportunities for cost optimization without compromising performance or quality.",
+        subbutton: " Get part & fixture costing support",
       },
       {
         paraId: 6,
-        paraHead: "Prototyping Production Providing Services",
+        paraHead: "Prototyping and Production Support Services",
         paraContent:
-          "It is the key phase in the product lifecycle concerning prototype development, enabling actual testing and validation of designs. We have prototype manufacturing support services devised keeping in mind the need and goals of a client so that they bring the concept into reality faster and with more efficiency. Functional prototypes are to be rapidly prototyped for test and evaluation prior to full-scale production. This iterative process can have designs continually refined, issues discovered, and a final product that suits the client's expectations.",
+          "Prototyping is an essential step in validating designs before full-scale production. We support prototype development and early production stages to help teams test form, fit, and function. This iterative process allows design refinement, early issue detection, and smoother transition into manufacturing. Our production support services ensure that design, machining, and documentation align correctly as projects move forward.",
+        // subbutton: " Get prototyping & production support",
       },
       {
         paraId: 7,
-        paraHead: "Personal Attention and Highly Customized Solutions",
+        paraHead: "Client-Focused and Customized Engineering Support",
         paraContent:
-          "Every Client comes with a unique requirement and dilemma at Mechfusion. We are talking about an individualized attention and customized solution for whatever requirement comes out of your mouth. Most importantly, we spent time listening to and getting to know your project goals, workflows, and constraints, which helps enable developing efficiencies improvement strategies, thus further enhancing success per the end results. This is all done so that the clients can win while the end of this client-centric approach really surrounds giving you the support and experience to navigate the challenging engineering projects with successful results.",
+          "Every project comes with unique technical and business requirements. At Mechfusion, we focus on understanding project goals, workflows, and constraints before delivering solutions. Our engineering services are customized to align with specific requirements rather than following a one-size-fits-all approach. This client-focused method helps improve efficiency, reduce risk, and deliver outcomes that support long-term success.",
+        // subbutton: " Get customized engineering support",
       },
       {
         paraId: 8,
-        paraHead: "The Mechfusion Way: Commitment to Quality and Excellence",
+        paraHead: "Commitment to Quality and Engineering Excellence",
         paraContent:
-          "Quality is the hallmark of Mechfusion. Services that, on occasion, go beyond the predefined industry metric levels is what we pledge. Our serious quality assurance entails checks and validations during every phase of the project to ensure that all deliverables are reliable, accurate, and trustworthy. This serious commitment to quality earns us the trust and confidence of clients and has made us one of the preferred partners by various industries.",
-        linkText: "Mechfusion",
-        linkTo: "/",
+          "Quality is central to all our engineering services. We follow structured quality checks and validation processes at every stage of execution to ensure accuracy, reliability, and consistency. Our commitment to engineering excellence has earned the trust of clients across manufacturing, industrial equipment, automotive, and product development sectors.",
+        subbutton: " Learn about our quality assurance practices",
       },
       {
         paraId: 9,
-        paraHead: "We Are Driven by Your Success",
-        paraContent:
-          "Your engineering enterprise finds in Mechfusion a strategic partner committed to your success. We can offer total service solutions that leverage our knowledge and an enduring commitment to quality so that your ideas can take on tangible forms. Let’s Build Your Vision Together. Whether you need mechanical CAD/CAM, mold flow analysis, costing, or prototyping, Mechfusion is ready to support your next breakthrough. Contact us today to get started.",
+        paraHead: "Engineering Services for Global Clients",
+        paraContent: [
+          
+          {
+            type: "link",
+            text: "Mechfusion ",
+            to: "/",
+          },
+          { type: "text", text:"provides engineering services for clients in the USA, India, and global markets. We work with international standards, clear documentation practices, and structured communication processes to support distributed engineering and manufacturing teams. \n\n Our global delivery model allows us to scale support efficiently while maintaining consistent quality, accountability, and predictable delivery timelines." },
+       
+        ]
+        // subbutton: " Speak with our global delivery team",
       },
+      {
+        paraId: 10,
+        paraHead: "A Reliable Engineering Partner",
+       paraContent: [
+          { type: "text", text: "Clients choose Mechfusion because we offer connected engineering services that bring together " },
+          {
+            type: "link",
+            text: "  mechanical design support",
+            to: "/ services/mechanical-design",
+          },
+          { type: "text", text: " CAD/CAM, " },
+          {
+            type: "link",
+            text: "  CNC",
+            to: "/ services/cnc-programming",
+          },
+           { type: "text", text: " related manufacturing support, engineering documentation, analysis, costing, and prototyping. This integrated service model simplifies execution and improves overall project efficiency. " },
+        ]
+       
+       
+       
+        // subbutton: " Explore our full engineering services",
+      },
+      {
+        paraId: 11,
+        paraHead: "Let’s Build Your Engineering Solution",
+        paraContent:
+          "Partner with Mechfusion for dependable engineering services that support design, manufacturing, and production goals. Whether your requirement involves CAD/CAM, mold flow analysis, costing, prototyping, or extended engineering support, our team is ready to assist.",
+        subbutton: "Get a technical response from an engineering specialist",
+
+      },
+
     ],
   },
 ];

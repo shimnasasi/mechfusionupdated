@@ -1,36 +1,57 @@
-const { SitemapStream, streamToPromise } = require('sitemap');
-const { createWriteStream } = require('fs');
-const path = require('path');
+const { SitemapStream, streamToPromise } = require("sitemap");
+const { createWriteStream } = require("fs");
+const path = require("path");
 
-// Define your static routes
-const routes = [
-  { url: '/', changefreq: 'daily', priority: 1.0 },
-  { url: '/about', changefreq: 'weekly', priority: 0.8 },
-  { url: '/services', changefreq: 'weekly', priority: 0.8 },
-  { url: '/contact', changefreq: 'monthly', priority: 0.6 },
-  { url: '/career', changefreq: 'monthly', priority: 0.6 },
+// ===============================
+// STATIC ROUTES
+// ===============================
+const staticRoutes = [
+  { url: "/", changefreq: "daily", priority: 1.0 },
+  { url: "/about", changefreq: "weekly", priority: 0.8 },
+  { url: "/services", changefreq: "weekly", priority: 0.8 },
+  { url: "/contact", changefreq: "monthly", priority: 0.6 },
+  { url: "/career", changefreq: "monthly", priority: 0.6 },
 ];
 
-// Add dynamic routes if needed
-const dynamicRoutes = [
-  { url: '/services/service1', changefreq: 'monthly', priority: 0.7 },
-  { url: '/services/service2', changefreq: 'monthly', priority: 0.7 },
-];
+// ===============================
+// BLOG ROUTES (ADD ALL BLOG SLUGS)
+// ===============================
+const blogRoutes = [
+  "the-role-of-advanced-CNC-Programming-in-boosting-india's-precision-manufacturing-industry",
+  "top-5-mechanical-design-trends-transforming-indian-manufacturing-in-2026",
+  "best-jigs-fixture-design-services-usa",
+  "the-increasing-demand-for-cam-services:-an-international-scenario",
+  "maximizing-Production-efficiency-with-jig-and-fixture-design-services",
+  "improving-production-with-expert-mould-design-solutions",
+].map(slug => ({
+  url: `/blog/${slug}`,
+  changefreq: "monthly",
+  priority: 0.7,
+}));
 
-// Combine static and dynamic routes
-const allRoutes = [...routes, ...dynamicRoutes];
+// ===============================
+// COMBINE ALL ROUTES
+// ===============================
+const allRoutes = [...staticRoutes, ...blogRoutes];
 
-// Generate the sitemap
+// ===============================
+// GENERATE SITEMAP
+// ===============================
 async function generateSitemap() {
-  const sitemapStream = new SitemapStream({ hostname: 'https://www.yourdomain.com' });
+  const sitemapStream = new SitemapStream({
+    hostname: "https://mechfusion.in",
+  });
 
-  allRoutes.forEach((route) => sitemapStream.write(route));
+  allRoutes.forEach(route => sitemapStream.write(route));
   sitemapStream.end();
 
   const sitemap = await streamToPromise(sitemapStream);
 
-  // Write the sitemap to the public folder
-  createWriteStream(path.resolve('./public/sitemap.xml')).write(sitemap);
+  createWriteStream(
+    path.resolve("./public/sitemap.xml")
+  ).write(sitemap);
+
+  console.log("✅ Sitemap generated successfully!");
 }
 
 generateSitemap();

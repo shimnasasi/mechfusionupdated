@@ -1,11 +1,12 @@
 import React from "react";
 import "./HSCard.css";
 
-const HSCard = ({ image, name,alttext }) => {
+const HSCard = ({ image, name,alttext,para }) => {
   return (
     <div className="HSCardContainer">
       <img src={image} alt={alttext} className="HSimg" title={name} />
-      <span className="Hshead">{name}</span>
+      <h3 className="Hshead">{name}</h3>
+      <p className="para">{para}</p>
     </div>
   );
 };

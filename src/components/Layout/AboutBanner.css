@@ -1,12 +1,13 @@
 .AboutBanner-container {
   width: 100%;
-  min-height: 100vh;
+  min-height: 65vh;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  color: white;
+  color:var(--blue) ;
   gap: 3%;
+  background-color: white;
 }
  
 .aboutBannerImg {
@@ -27,7 +28,7 @@
   text-align: right;
   width: 35%;
   padding-right: 2rem;
-  border-right: 5px solid var(--white);
+  border-right: 5px solid var(--blue);
 }
 .smallHeading {
   font-size: 1.2rem;

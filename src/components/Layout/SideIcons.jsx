@@ -40,7 +40,7 @@ const SideIcons = () => {
           rel="noreferrer"
           title="Whatsapp"
         >
-          <FaWhatsapp />
+          <FaWhatsapp className="whatsappicon" />
         </a>
       </div>
       <div className="iconwrapper">
@@ -50,7 +50,7 @@ const SideIcons = () => {
           title="Email"
           rel="noreferrer"
         >
-          <GiEnvelope />
+          <GiEnvelope className="envelopeicon" />
         </a>
       </div>
       <div className="iconwrapper">
@@ -60,12 +60,12 @@ const SideIcons = () => {
           title="Call"
           rel="noreferrer"
         >
-          <RiPhoneFill />
+          <RiPhoneFill className="phoneicon" />
         </a>
       </div>
       {isVisible ? (
         <div className="iconwrapper">
-          <MdOutlineKeyboardDoubleArrowUp
+          <MdOutlineKeyboardDoubleArrowUp className="scrollicon"
             onClick={scrollToTop}
             title="Scroll to Top"
           />

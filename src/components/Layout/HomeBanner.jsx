@@ -15,8 +15,8 @@ const HomeBanner = () => {
           future together.
         </span>
         <br />
-        <Link to={"/about "}>
-          <button>Explore </button>
+        <Link to="mailto:enquiry@mechfusion.in?subject=Mechanical Design Requirement">
+          <button> Request a Consultation</button>
         </Link>
       </div>
     </div>

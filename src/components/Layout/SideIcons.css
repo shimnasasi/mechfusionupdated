@@ -12,15 +12,32 @@
   width: 3rem;
   height: 3rem;
   font-size: 2rem;
-  background: linear-gradient(to bottom, #000, var(--blue));
+  /* background: linear-gradient(to bottom, #000, var(--blue)); */
+  background-color: rgb(197, 195, 195);
   color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  border: 0.5px solid var(--white);
+  /* border: 0.5px solid var(--white); */
 }
 .iconwrapper a:hover,
 .iconwrapper:hover {
-  background: linear-gradient(to bottom, var(--blue), #000);
+  /* background: linear-gradient(to bottom, var(--blue), #000); */
+  background-color: rgb(167, 165, 165);
+}
+.whatsappicon {
+  color: green;
+}
+.phoneicon
+{
+  color:blue;
+}
+.envelopeicon
+{
+  color: #ff9100;
+}
+.scrollicon
+{
+  color: var(--blue);
 }

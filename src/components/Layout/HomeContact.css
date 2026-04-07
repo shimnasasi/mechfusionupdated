@@ -6,25 +6,32 @@
   align-items: center;
   justify-content: center;
   /* background-color:var(--lihtgray); */
-  background: linear-gradient(to  bottom, var(--white), var(--gray));
+  background: linear-gradient(to bottom, var(--white), var(--gray));
 
 }
+
 .HomeContactPara {
   color: var(--gray);
   font-size: 1.3rem;
-  
-   border: 1px   solid gray;
-  height: 0px;
+
+  border: 1px solid gray;
+
   border: none;
-  /* gap: -10px; */
+  margin: 0;
+  padding: 0;
+
 }
+
 .HomecontactHead {
   font-size: 2rem;
   color: var(--white);
-  border: 1px   solid gray;
-  height: 0px;
+  border: 1px solid gray;
+  /* height: 0px; */
   border: none;
+  margin: 0;
+  padding: 0;
 }
+
 .contactWrapper {
   width: 70%;
   padding: 3rem 0;
@@ -42,6 +49,7 @@
   border: 0.5px solid var(--white);
   /* box-shadow: 1px 1px 2px 1px var(--white); */
 }
+
 .HomeContactBtn {
   padding: 0.5rem 2rem;
   font-size: 1em;
@@ -52,10 +60,12 @@
   color: var(--blue);
   cursor: pointer;
 }
+
 .HomeContactBtn:hover {
   border: 1px solid var(--white);
   transition-duration: 1s;
 }
+
 .listdesk {
   display: flex;
   text-transform: capitalize;
@@ -75,6 +85,7 @@
   align-items: center;
   /* font-size: 1rem; */
 }
+
 .contactInfo {
   display: flex;
   flex-direction: column;
@@ -83,14 +94,17 @@
   padding-left: 2rem;
   border-left: 5px solid var(--white);
 }
+
 @media (max-width: 768px) {
   .contactWrapper {
     width: 97%;
     flex-direction: column;
   }
+
   .listdesk {
     display: none;
   }
+
   .contactInfo {
     align-items: center;
     border: none;

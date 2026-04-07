@@ -1,0 +1,291 @@
+/* ================================
+   MAIN LAYOUT
+================================ */
+
+.sidebar-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    gap: 10px;
+
+}
+
+/* Main wrapper */
+.service-main-wrapper {
+    padding: 4rem 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* IMPORTANT for sticky */
+    gap: 5rem;
+    width: 80%;
+
+}
+
+/* ================================
+   STICKY SIDEBAR
+================================ */
+
+.sidebar-wrapper {
+    width: 15rem;
+    border: 2px solid var(--gray-light);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 1.5rem;
+
+    /* STICKY MAGIC */
+    position: sticky;
+    top: 100px;
+    /* adjust based on header height */
+
+    height: fit-content;
+    background-color: #fff;
+}
+
+/* ================================
+   SIDEBAR ITEMS
+================================ */
+
+.mainservice-name {
+    background-color: var(--blue);
+    height: 3rem;
+    /* width: 100%; */
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    cursor: pointer;
+    color: rgb(224, 218, 218);
+}
+
+/* Active main service */
+.mainservice-name.active {
+    background-color: var(--blue);
+    font-weight: 600;
+    width: 15rem;
+    border-radius: 2px;
+}
+
+/* Sub services */
+.service-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+
+.servicename {
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    color: rgb(13, 13, 13);
+    cursor: pointer;
+}
+
+.servicename:hover {
+    background-color: #f2f2f2;
+}
+
+/* ================================
+   CONTENT AREA
+================================ */
+
+.servicecontent-wrapper {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #fff;
+}
+
+/* Title */
+.servicename1 {
+    color: var(--blue);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    scroll-margin-top: 520px;
+
+    /* scroll-margin-top: 12vh; */
+    /* same or little more than navbar height */
+
+
+}
+
+/* Image + text */
+.servicelist1 {
+    display: flex;
+    gap: 4rem;
+    align-items: flex-start;
+}
+
+.serviceimg {
+    width: 28rem;
+
+    height: 27rem;
+    border-radius: 2px;
+}
+
+.serviceparagraph {
+    width: 30rem;
+    text-align: justify;
+    /* white-space: pre-line; */
+}
+
+.serviceparabtn {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* ================================
+   SUB CONTENT
+================================ */
+
+.subServices {
+    color: var(--blue);
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.cta-btn {
+    background: linear-gradient(135deg, #0b5ed7, #0a58ca);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+    box-shadow: 0 8px 20px rgba(11, 94, 215, 0.3);
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* .cta-btn:hover {
+  background: linear-gradient(135deg, #084298, #052c65);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(11, 94, 215, 0.4);
+}
+
+.cta-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 15px rgba(11, 94, 215, 0.25);
+} */
+
+
+.subpara {
+    text-align: justify;
+    color: var(--black);
+    font-weight: 400;
+    white-space: pre-line;
+}
+
+.inline-link {
+    color: #0b5ed7;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.inline-link:hover {
+    text-decoration: underline;
+}
+
+.servicebtn11 {
+    background: linear-gradient(to top, var(--darkblue), rgb(44, 44, 96));
+    color: white;
+    padding: 6px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+
+    display: inline-flex;
+    /* good for content width */
+
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 500;
+
+    width: fit-content;
+    /* button width based on text */
+}
+
+/* no hover effect */
+.servicebtn11:hover {
+    background-color: var(--blue);
+    color: white;
+}
+
+@media (max-width:768px) {
+
+    .sidebar-container {
+        width: 100%;
+    }
+
+    .service-main-wrapper {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 2rem;
+        width: 90%;
+    }
+
+    .sidebar-wrapper {
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+
+    .mainservice-name {
+        width: 100%;
+    }
+
+    .service-list-container {
+        width: 100%;
+    }
+
+    .servicelist1 {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .serviceimg {
+        width: 90%;
+        height: auto;
+        border-radius: 6px;
+    }
+
+    .serviceparabtn {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .serviceparagraph {
+        width: 90%;
+        /* text-align:left; */
+        /* font-size:14px; */
+        /* line-height:1.6; */
+    }
+
+
+    .subpara {
+        width: 90%;
+    }
+
+    .subServices {
+        width: 90%;
+    }
+
+    .servicebtn11 {
+        width: 80%;
+    }
+
+}

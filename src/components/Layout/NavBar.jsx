@@ -1,106 +1,82 @@
 import React, { useState } from "react";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
-import { FaLinkedin } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaBars } from "react-icons/fa6";
+import { FaLinkedin, FaFacebookSquare, FaInstagram } from "react-icons/fa";
+import { FaXTwitter, FaBars } from "react-icons/fa6";
 import SideIcons from "./SideIcons";
-import mfLogo from '../Assets/LOGO/logo.png';
-// import mflogo1 from '../Assets/LOGO/'
+import mfLogo from "../Assets/LOGO/logo.png";
 
 const NavBar = () => {
   const [view, setView] = useState(false);
+  const [showServices, setShowServices] = useState(false);
+
   return (
     <div className="NavBar-container">
-      <Link to={"/"}>
-      <img src={mfLogo} alt="mechfusionLogo" className="logomf" />
-        {/* <div className="mfNavHeadWrapper">
-          <div className="mech1">
-            Mech<span className="fusion1">fusion</span>
-          </div>
-          <span className="esWrapper">e n g i n e e r i n g <span className="solution">s o l u t i o n s</span> </span>
-        </div> */}
+      <Link to="/">
+        <img src={mfLogo} alt="mechfusionLogo" className="logomf" />
       </Link>
-      <FaBars
-        className="navIcon"
-        onClick={() => {
-          setView(!view);
-        }}
-      />
-      {view ? (
-        <ul className="listmob">
-          <Link to={"/"}>
-            <li>Home</li>
-          </Link>
-          <Link to={"/about"}>
-            <li>About us</li>
-          </Link>
-          <Link to={"/services"}>
-            <li>Services</li>
-          </Link>
-          <Link to={"/career"}>
-            <li>Career</li>
-          </Link>
-          <Link to={"/blog"}>
-            <li>Blog</li>
-          </Link>
-          <Link to={"/contact"}>
-            <li>Contact us</li>
-          </Link>
-          <div className="listaddons">
-            <span className="navHead">
-              Mech<span className="mfusion">Fusion</span>
-            </span>
-            <br />
 
+      {/* Mobile Icon */}
+      <FaBars className="navIcon" onClick={() => setView(!view)} />
+
+      {/* Mobile Menu */}
+      {view && (
+        <ul className="listmob">
+          <Link to="/"><li>Home</li></Link>
+          <Link to="/about"><li>About us</li></Link>
+          <Link to="/services"><li>Services</li></Link>
+          <Link to="/career"><li>Career</li></Link>
+          <Link to="/blog"><li>Blog</li></Link>
+          <Link to="/contact"><li>Contact us</li></Link>
+
+          <div className="listaddons">
             <div className="navbar-socio-Links">
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://www.facebook.com/MechfusionEngineeringSolutions"
-              >
+              <a href="https://www.facebook.com/MechfusionEngineeringSolutions" target="_blank" rel="noreferrer">
                 <FaFacebookSquare className="icon" />
               </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.instagram.com/mechfusion_/"
-              >
+              <a href="https://www.instagram.com/mechfusion_/" target="_blank" rel="noreferrer">
                 <FaInstagram className="icon" />
               </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.instagram.com/mechfusion_/"
-              >
-                <FaXTwitter className="icon" />
-              </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.linkedin.com/company/mechfusion/"
-              >
+              <a href="https://www.linkedin.com/company/mechfusion/" target="_blank" rel="noreferrer">
                 <FaLinkedin className="icon" />
               </a>
+              <FaXTwitter className="icon" />
             </div>
           </div>
         </ul>
-      ) : null}
+      )}
+
+      {/* Desktop Menu */}
       <div className="listdesk">
-        <Link to={"/"}>home</Link>
-        <Link to={"/about"}>About us</Link>
-        <Link to={"/services"}>services</Link>
-        <Link to={"/career"}>career</Link>
-        <Link to={"/blog"}>Blog</Link>
-        <Link to={"/contact"}>contact us</Link>
-        {/* <button className="navBtn">
-          <RiPhoneFill /> call
-        </button> */}
+        <Link to="/" className="listdeskone">Home</Link>
+        <Link to="/about" className="listdeskone">About us</Link>
+
+        {/* Services Dropdown */}
+        <div
+          className="nav-dropdown"
+          onMouseEnter={() => setShowServices(true)}
+          onMouseLeave={() => setShowServices(false)}
+        >
+          <span className="dropdown-title"><Link to="/services">Services ▾</Link></span>
+
+          {showServices && (
+            <div className="dropdown-menu">
+              <Link to="/services/mechanical-design">Mechanical Design</Link>
+              <Link to="/services/cnc-programming">CNC Programming</Link>
+              <Link to="/services/engineering-documentation">Engineering Documentation</Link>
+              <Link to="/services/other-services">Other Services</Link>
+            </div>
+          )}
+        </div>
+        {/* <Link to="/services" className="listdeskone">Services</Link> */}
+        <Link to="/career" className="listdeskone">Career</Link>
+        <Link to="/blog" className="listdeskone">Blog</Link>
+        <Link to="/contact" className="listdeskone">Contact us</Link>
       </div>
+
       <SideIcons />
     </div>
+
   );
 };
 

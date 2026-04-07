@@ -5,7 +5,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  align-items: flex-start;   /* 👈 important */
+  overflow-y: auto;
 }
 .serviceWrapper {
   padding: 3rem 0;

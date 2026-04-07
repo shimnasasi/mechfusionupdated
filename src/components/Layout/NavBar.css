@@ -5,11 +5,13 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  /* justify-content: space-between; */
   /* gap: 33rem; */
   /* justify-content:space-between ; */
   color: var(--white);
-  position: absolute;
+  position: fixed;
   z-index: 100;
+
   /* border: 1px solid ; */
 }
 .engineeringSolution1 {
@@ -67,6 +69,7 @@
   animation: movein ease-in-out 0.5s forwards;
   text-transform: capitalize;
 }
+
 @keyframes movein {
   0% {
     top: 100vh;
@@ -120,6 +123,92 @@
   width: 17rem;
   padding-top: 1rem;
 }
+/* ===== DESKTOP MENU ===== */
+.listdesk {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.listdeskone:hover {
+  border: 2px solid var(--white);
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  /* background-color: white; */
+  /* color: var(--blue); */
+  font-weight: 400;
+  
+}
+
+/* ===== DROPDOWN ===== */
+.nav-dropdown {
+  position: relative; /* VERY IMPORTANT */
+  display: flex;
+  align-items: center;
+}
+
+/* Services text */
+.dropdown-title {
+  color: white;
+  cursor: pointer;
+  /* font-weight: 200; */
+  text-transform: capitalize;
+}
+.listdeskone,
+.dropdown-title a {
+  font-weight: 500;   /* same for all */
+}
+
+
+/* ===== DROPDOWN ===== */
+.nav-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+
+.dropdown-title {
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 3.4rem;
+  left: 0;
+  background: #ffffff;
+  min-width: 240px;
+  border-radius: 6px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  display: none; /* KEY FIX */
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.nav-dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+.dropdown-menu a {
+  padding: 12px 18px;
+  color: #041c5a;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.dropdown-menu a:hover {
+  background-color: #e5dfda;
+  color:var(--blue)
+}
+.dropdown-title
+{
+  padding-top: 1.5rem;
+}
+
 @media (max-width: 768px) {
   .mfNavHeadWrapper {
     height: 7.8vh;

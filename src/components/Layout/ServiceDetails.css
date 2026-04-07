@@ -1,0 +1,20 @@
+.seviceDetails {
+    /* width: 60%; */
+    font-family: "Bebas Neue", sans-serif;  
+  }
+  .seviceDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10rem; */
+    text-align: justify;
+  }
+  
+  .ServiceDetalsList h1 {
+    color: var(--yellow);
+  }
+  .dImage{
+    width: 500px;
+    height: 400px;
+    border: 1px solid red;
+  }

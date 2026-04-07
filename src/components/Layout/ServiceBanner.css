@@ -1,0 +1,94 @@
+.servicebanner {
+  width: 100%;
+  height: 35vh;
+  background: #6f9aaf; /* left gray background */
+  position: relative;
+  display: flex;
+  color: var(--white);
+  padding-top: 50px;
+
+}
+
+.servicebanner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%; /* how much image should cover */
+  height: 100%;
+  
+  background: url("../../Assets/engineeringdocumentation.webp");
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+
+  /* FADE at CENTER (left side sharp gray, middle fade, right full image) */
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 80%,
+    black 100%
+  );
+  
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 80%,
+    black 100%
+  );
+}
+.servicecontent {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: capitalize;
+  background: linear-gradient(to right, #000000b0, #00000030);
+  padding-left: 150px;
+  /* padding-top: 20px; */
+  /* margin-top: 20px; */
+}
+.servicecontent h3 {
+  /* font-size: 2rem; */
+  font-weight: 400;
+  /* margin-bottom: 20px; */
+  color: white;
+  /* padding-top:2rem ; */
+  margin: 0;
+  padding: 0;
+  
+}
+.servicecontent p {
+  /* font-size: 1.2rem; */
+  max-width: 600px;
+  line-height: 1.5;
+  
+/* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+@media (max-width: 768px) {
+  .servicebanner {
+    height: 60vh;
+    padding-top: 30px;
+  }
+  .servicebanner::after {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+     opacity: 0.25;
+  }
+  .servicecontent {
+    padding-left: 20px;
+    height: 60vh;
+  }
+  .servicecontent p{
+    /* display: none; */
+  }
+  .servicecontent  h1 {
+    font-size: 1.5rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+  }
+}

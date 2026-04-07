@@ -15,3 +15,15 @@
 .HSCardContainer:hover {
   background: linear-gradient(to right, var(--blue), black);
 }
+
+.Hshead {
+  font-size: 1.3rem;
+  /* font-weight: 400; */
+  margin-top: 10px;
+}
+.para
+{
+  font-size: 0.9rem;
+  margin-top: 5px;
+  
+}
