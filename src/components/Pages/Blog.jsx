@@ -5,6 +5,7 @@ import PageTop from "../Layout/PageTop";
 import blog1 from "../../Assets/18.jpg";
 import blog2 from "../../Assets/11.jpg"
 import blog3 from "../../Assets/02.jpg"
+import blog4 from "../../Assets/19.jpg"
 import HomeContact from "../Layout/HomeContact";
 import { blogPagelist } from "../../utils/bloglist";
 import { Link } from "react-router-dom";
@@ -62,6 +63,21 @@ const Blog = () => {
             {/* <h3>Mechanical Design</h3> */}
             <p className="card-para">
               Injection Mold Design Services for Cost-Effective Manufacturing
+
+
+              <HiArrowCircleRight className="arrowicon" />
+            </p>
+            {/* <button className="card-button">ReadMore</button> */}
+          </div>
+        </Link>
+
+
+         <Link to="/blog/jigs-and-fixture-design-services">
+          <div className="card">
+            <img className="blog-img" src={blog4} alt="" />
+            {/* <h3>Mechanical Design</h3> */}
+            <p className="card-para">
+              Jigs and Fixture Design Services
 
 
               <HiArrowCircleRight className="arrowicon" />
