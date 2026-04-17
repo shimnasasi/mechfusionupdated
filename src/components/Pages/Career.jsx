@@ -18,7 +18,7 @@ const Career = () => {
           name="description"
           content="Explore engineering careers at Mechfusion. Discover mechanical design jobs and grow with our innovative team in the CAD/CAM industry."
         />
-        <meta name="keywords" content="Engineering Careers" />
+        <meta name="keywords" content="Engineering Careers, Mechanical Design Jobs" />
       </Helmet>
       <CareerBanner/>
       {/* <PageTop PageName="Career" /> */}

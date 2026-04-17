@@ -20,7 +20,7 @@ const About = () => {
           content=" Mechfusion transforms ideas into accurate, manufacturable designs through precision engineering, innovative solutions, and professional consulting services."
         />
 
-        <meta name="keywords" content="Reverse Engineering Design" />
+        <meta name="keywords" content="Reverse Engineering Design,Estimation and Costing" />
       </Helmet>
       {/* <PageTop PageName="About us" /> */}
       <AboutBanner1/>

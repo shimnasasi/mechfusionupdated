@@ -23,7 +23,7 @@ const Blog = () => {
           name="description"
           content="Explore Mechfusion’s engineering blog for insights on CNC programming, mechanical design trends, CAM services, jigs, fixtures, and smart manufacturing updates. "
         />
-        <meta name="keywords" content="Design for Manufacturing (DFM)" />
+        <meta name="keywords" content="Design for Manufacturing (DFM),CNC Programming" />
       </Helmet>
       {/* <PageTop PageName="Blog" /> */}
       <BlogBanner />

@@ -16,21 +16,25 @@ const Home = () => {
       <>
         <Helmet>
           <title>Mechanical Design Service for Products | Mechfusion  </title>
-            <meta property="og:title" content="Mechanical Design Service for Products | Mechfusion" />
+          <meta property="og:title" content="Mechanical Design Service for Products | Mechfusion" />
           <link rel="canonical" href={`${window.location.origin}/`} />
           <meta
             name="description"
             content="Mechfusion offers expert product design backed by mechanical engineering to turn your ideas into accurate, manufacturable solutions."
           />
+
           <meta name="keywords" content="Product Design" />
-        <meta name="robots" content="index, follow" />
+          <meta name="robots" content="index, follow" />
+
+          <meta name="keywords" content="Product Design,Mechanical Design Service" />
+
         </Helmet>
         <HomeBanner />
         <HomeAbout />
         <HomeServices />
-        <Whychoose/>
-        <Countries/>
-        <Industries/>
+        <Whychoose />
+        <Countries />
+        <Industries />
         <HomeAccordion />
         <HomeContact />
       </>
