@@ -16,6 +16,8 @@ import BlogBanner from "../Layout/BlogBanner";
 const Blog = () => {
   return (
     <Layout>
+
+
       <Helmet>
         <title> Engineering Blogs & Manufacturing Insights | Mechfusion</title>
 
@@ -63,28 +65,24 @@ const Blog = () => {
             {/* <h3>Mechanical Design</h3> */}
             <p className="card-para">
               Injection Mold Design Services for Cost-Effective Manufacturing
-
-
               <HiArrowCircleRight className="arrowicon" />
             </p>
             {/* <button className="card-button">ReadMore</button> */}
           </div>
         </Link>
 
-
-         <Link to="/blog/jigs-and-fixture-design-services">
+        <Link to="/blog/affordable-mold-design-services-in-uk">
           <div className="card">
             <img className="blog-img" src={blog4} alt="" />
             {/* <h3>Mechanical Design</h3> */}
             <p className="card-para">
-              Jigs and Fixture Design Services
-
-
+              Mold Design Services in the UK for Startups and SMEs
               <HiArrowCircleRight className="arrowicon" />
             </p>
             {/* <button className="card-button">ReadMore</button> */}
           </div>
         </Link>
+
 
 
         {/* <div className="blog-card">

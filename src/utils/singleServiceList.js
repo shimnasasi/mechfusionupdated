@@ -14,7 +14,7 @@ export const serviceData = [
     img1: mechanical,
     id: 1,
     services: [
-      { service: "Jigs and Fixture Design" },
+      { service: "Jigs and Fixture Design", slug: "jigs-and-fixture-design-services" },
       { service: "Mould Design" },
       { service: "Product Design" },
       { service: "Gauge Design" },

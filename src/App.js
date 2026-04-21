@@ -27,6 +27,9 @@ import MechanicalDesign from "./components/Layout/MechanicalDesign";
 import CncProgramming from "./components/Layout/CncProgramming";
 import EngineeringDocumentation from "./components/Layout/EngineeringDocumentation";
 import OtherServices from "./components/Layout/OtherServices";
+import JigsFixturePage from "./components/Layout/JigsFixturePage";
+
+
 import BlogOne from "./components/Layout/BlogOne";
 import BlogTwo from "./components/Layout/BlogTwo";
 import BlogThree from "./components/Layout/BlogThree";
@@ -49,13 +52,19 @@ const App = () => {
           <Route path="/services/cnc-programming" element={<CncProgramming />} />
           <Route path="/services/engineering-documentation" element={<EngineeringDocumentation />} />
           <Route path="/services/other-services" element={<OtherServices />} />
+          <Route
+            path="/services/jigs-and-fixture-design-services"
+            element={<JigsFixturePage />}
+          />
+         
+
           <Route path="/services" element={<Services />} />
           {/* <Route path="/services/:servicename" element={<SingleService />} /> */}
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/jigs-fixture-design-services-canada" element={<BlogOne />} />
           <Route path="/blog/jigs-fixture-design-services-uk-automotive-aerospace" element={<BlogTwo />} />
           <Route path="/blog/injection-mold-design-services-cost-effective-manufacturing" element={<BlogThree />} />
-          <Route path="/blog/jigs-and-fixture-design-services" element={<Blogfour />} />
+          <Route path="/blog/affordable-mold-design-services-in-uk" element={<Blogfour />} />
           {/* <Route path="/blog/:blogName" element={<SingleBlog />} /> */}
           {/* <Route path="/blog" element={<BlogPage />} /> */}
           {/* <Route path="/blog/:slug" element={<BlogDetailPage />} /> */}

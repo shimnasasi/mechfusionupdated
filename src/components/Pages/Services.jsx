@@ -22,6 +22,7 @@ const Services = () => {
       {/* <ServiceBanner /> */}
       {/* <Sidebar /> */}
       <MechanicalDesign/>
+      
       {/* <HomeContact /> */}
     {/* </Layout> */}
     </div>

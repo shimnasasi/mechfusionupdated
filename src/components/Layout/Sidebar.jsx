@@ -9,14 +9,11 @@ const Sidebar = () => {
 
   return (
     <div className="sidebar-container">
-
       {serviceData.map((service) => {
-
         const isActive = location.pathname === service.path;
 
         return (
           <div key={service.id}>
-
             {/* Main Service */}
             <div
               className={`mainservice-name ${isActive ? "active" : ""}`}
@@ -31,16 +28,24 @@ const Sidebar = () => {
                 {service.services?.map((sub, index) => (
                   <div key={index} className="servicename">
                     <MdOutlineArrowRight />
-                    {sub.service}
+
+                    {sub.slug ? (
+                      <span
+                        className="clickable"
+                        onClick={() => navigate(`/services/${sub.slug}`)}
+                      >
+                        {sub.service}
+                      </span>
+                    ) : (
+                      sub.service
+                    )}
                   </div>
                 ))}
               </div>
             )}
-
           </div>
         );
       })}
-
     </div>
   );
 };
