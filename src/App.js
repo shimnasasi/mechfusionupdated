@@ -34,6 +34,7 @@ import BlogOne from "./components/Layout/BlogOne";
 import BlogTwo from "./components/Layout/BlogTwo";
 import BlogThree from "./components/Layout/BlogThree";
 import Blogfour from "./components/Layout/Blogfour";
+import Blogfive from "./components/Layout/Blogfive";
 
 // import LocalBusinessSchema from "./components/Layout/LocalBusinessSchema";
 
@@ -65,6 +66,10 @@ const App = () => {
           <Route path="/blog/jigs-fixture-design-services-uk-automotive-aerospace" element={<BlogTwo />} />
           <Route path="/blog/injection-mold-design-services-cost-effective-manufacturing" element={<BlogThree />} />
           <Route path="/blog/affordable-mold-design-services-in-uk" element={<Blogfour />} />
+           <Route path="/blog/cnc-programming-services-in-canada" element={<Blogfive />} />
+         
+         
+         
           {/* <Route path="/blog/:blogName" element={<SingleBlog />} /> */}
           {/* <Route path="/blog" element={<BlogPage />} /> */}
           {/* <Route path="/blog/:slug" element={<BlogDetailPage />} /> */}

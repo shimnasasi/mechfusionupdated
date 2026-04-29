@@ -6,6 +6,7 @@ import blog1 from "../../Assets/18.jpg";
 import blog2 from "../../Assets/11.jpg"
 import blog3 from "../../Assets/02.jpg"
 import blog4 from "../../Assets/19.jpg"
+import blog5 from "../../Assets/10.jpg"
 import HomeContact from "../Layout/HomeContact";
 import { blogPagelist } from "../../utils/bloglist";
 import { Link } from "react-router-dom";
@@ -77,6 +78,18 @@ const Blog = () => {
             {/* <h3>Mechanical Design</h3> */}
             <p className="card-para">
               Mold Design Services in the UK for Startups and SMEs
+              <HiArrowCircleRight className="arrowicon" />
+            </p>
+            {/* <button className="card-button">ReadMore</button> */}
+          </div>
+        </Link>
+
+        <Link to="/blog/cnc-programming-services-in-canada">
+          <div className="card">
+            <img className="blog-img" src={blog5} alt="" />
+            {/* <h3>Mechanical Design</h3> */}
+            <p className="card-para">
+             CNC Programming Services in Canada for High-Precision Machining Projects
               <HiArrowCircleRight className="arrowicon" />
             </p>
             {/* <button className="card-button">ReadMore</button> */}
